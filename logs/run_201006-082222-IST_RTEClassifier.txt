@@ -1,0 +1,928 @@
+RTEClassifier_1step_ngram1_negtnTrue
+Training classifier...
+  ==> Training (100 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.512
+             2          -0.67675        0.603
+             3          -0.66422        0.615
+             4          -0.65429        0.617
+             5          -0.64635        0.614
+             6          -0.63995        0.612
+             7          -0.63471        0.612
+             8          -0.63039        0.608
+             9          -0.62677        0.607
+            10          -0.62372        0.607
+            11          -0.62113        0.608
+            12          -0.61890        0.608
+            13          -0.61697        0.608
+            14          -0.61530        0.608
+            15          -0.61383        0.610
+            16          -0.61253        0.610
+            17          -0.61138        0.610
+            18          -0.61036        0.610
+            19          -0.60945        0.610
+            20          -0.60863        0.610
+            21          -0.60788        0.610
+            22          -0.60721        0.611
+            23          -0.60660        0.611
+            24          -0.60604        0.611
+            25          -0.60553        0.612
+            26          -0.60506        0.610
+            27          -0.60462        0.610
+            28          -0.60422        0.610
+            29          -0.60385        0.610
+            30          -0.60351        0.610
+            31          -0.60318        0.611
+            32          -0.60288        0.611
+            33          -0.60260        0.611
+            34          -0.60234        0.611
+            35          -0.60209        0.612
+            36          -0.60185        0.612
+            37          -0.60163        0.612
+            38          -0.60142        0.612
+            39          -0.60123        0.612
+            40          -0.60104        0.612
+            41          -0.60086        0.612
+            42          -0.60069        0.612
+            43          -0.60053        0.612
+            44          -0.60037        0.612
+            45          -0.60022        0.612
+            46          -0.60008        0.612
+            47          -0.59995        0.612
+            48          -0.59982        0.612
+            49          -0.59969        0.612
+            50          -0.59957        0.612
+            51          -0.59946        0.611
+            52          -0.59935        0.611
+            53          -0.59924        0.611
+            54          -0.59913        0.611
+            55          -0.59903        0.611
+            56          -0.59894        0.611
+            57          -0.59884        0.611
+            58          -0.59875        0.611
+            59          -0.59867        0.611
+            60          -0.59858        0.612
+            61          -0.59850        0.612
+            62          -0.59842        0.612
+            63          -0.59834        0.612
+            64          -0.59827        0.612
+            65          -0.59819        0.612
+            66          -0.59812        0.612
+            67          -0.59805        0.612
+            68          -0.59799        0.612
+            69          -0.59792        0.612
+            70          -0.59786        0.612
+            71          -0.59779        0.612
+            72          -0.59773        0.612
+            73          -0.59767        0.612
+            74          -0.59762        0.612
+            75          -0.59756        0.612
+            76          -0.59751        0.612
+            77          -0.59745        0.612
+            78          -0.59740        0.612
+            79          -0.59735        0.612
+            80          -0.59730        0.612
+            81          -0.59725        0.612
+            82          -0.59720        0.612
+            83          -0.59715        0.612
+            84          -0.59711        0.612
+            85          -0.59706        0.612
+            86          -0.59702        0.612
+            87          -0.59698        0.612
+            88          -0.59693        0.612
+            89          -0.59689        0.612
+            90          -0.59685        0.612
+            91          -0.59681        0.612
+            92          -0.59677        0.612
+            93          -0.59673        0.612
+            94          -0.59670        0.612
+            95          -0.59666        0.612
+            96          -0.59662        0.612
+            97          -0.59659        0.612
+            98          -0.59655        0.612
+            99          -0.59652        0.612
+         Final          -0.59648        0.612
+Testing classifier...
+Accuracy: 0.5592
+length of train tweets 80000
+length of test tweets 20000
+  ==> Training (100 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.501
+             2          -0.59176        0.831
+             3          -0.52501        0.839
+             4          -0.47858        0.846
+             5          -0.44429        0.853
+             6          -0.41772        0.858
+             7          -0.39637        0.863
+             8          -0.37873        0.868
+             9          -0.36383        0.871
+            10          -0.35101        0.874
+            11          -0.33983        0.877
+            12          -0.32997        0.880
+            13          -0.32117        0.882
+            14          -0.31326        0.884
+            15          -0.30610        0.886
+            16          -0.29957        0.888
+            17          -0.29359        0.889
+            18          -0.28807        0.891
+            19          -0.28297        0.893
+            20          -0.27823        0.894
+            21          -0.27382        0.895
+            22          -0.26969        0.896
+            23          -0.26581        0.897
+            24          -0.26217        0.898
+            25          -0.25874        0.898
+            26          -0.25550        0.899
+            27          -0.25243        0.900
+            28          -0.24952        0.901
+            29          -0.24675        0.902
+            30          -0.24412        0.902
+            31          -0.24161        0.903
+            32          -0.23921        0.904
+            33          -0.23692        0.904
+            34          -0.23473        0.905
+            35          -0.23263        0.905
+            36          -0.23061        0.906
+            37          -0.22868        0.906
+            38          -0.22682        0.906
+            39          -0.22503        0.907
+            40          -0.22330        0.907
+            41          -0.22164        0.908
+            42          -0.22004        0.908
+            43          -0.21849        0.908
+            44          -0.21699        0.909
+            45          -0.21555        0.909
+            46          -0.21415        0.910
+            47          -0.21279        0.910
+            48          -0.21148        0.910
+            49          -0.21020        0.910
+            50          -0.20897        0.911
+            51          -0.20777        0.911
+            52          -0.20660        0.911
+            53          -0.20547        0.911
+            54          -0.20437        0.912
+            55          -0.20330        0.912
+            56          -0.20226        0.912
+            57          -0.20125        0.912
+            58          -0.20026        0.912
+            59          -0.19930        0.913
+            60          -0.19836        0.913
+            61          -0.19745        0.913
+            62          -0.19655        0.913
+            63          -0.19568        0.913
+            64          -0.19483        0.914
+            65          -0.19400        0.914
+            66          -0.19319        0.914
+            67          -0.19240        0.914
+            68          -0.19163        0.914
+            69          -0.19087        0.915
+            70          -0.19013        0.915
+            71          -0.18940        0.915
+            72          -0.18869        0.915
+            73          -0.18800        0.915
+            74          -0.18732        0.915
+            75          -0.18665        0.915
+            76          -0.18600        0.915
+            77          -0.18536        0.916
+            78          -0.18473        0.916
+            79          -0.18412        0.916
+            80          -0.18352        0.916
+            81          -0.18292        0.916
+            82          -0.18234        0.916
+            83          -0.18178        0.916
+            84          -0.18122        0.916
+            85          -0.18067        0.916
+            86          -0.18013        0.916
+            87          -0.17960        0.916
+            88          -0.17908        0.917
+            89          -0.17857        0.917
+            90          -0.17807        0.917
+            91          -0.17757        0.917
+            92          -0.17709        0.917
+            93          -0.17661        0.917
+            94          -0.17614        0.917
+            95          -0.17568        0.917
+            96          -0.17523        0.917
+            97          -0.17478        0.917
+            98          -0.17434        0.917
+            99          -0.17391        0.918
+         Final          -0.17348        0.918
+######################
+1 Step Classifier :  RTEClassifier
+Accuracy :  0.763
+######################
+   6.093 neg_l(fals)==0.9 and label is 4
+   5.955 neg_r(okayi)==0.9 and label is 4
+   5.105 neg_l(swoon)==0.6000000000000001 and label is 4
+   5.077 neg_l(weak)==0.7000000000000001 and label is 4
+   4.817 neg_l(cheat)==0.5000000000000001 and label is 4
+  -4.777 neg_l(hard)==0.8 and label is 0
+   4.768 neg_l(kfest)==0.0 and label is 4
+   4.740 neg_l(subsid)==0.0 and label is 4
+   4.607 neg_l(figur)==0.6000000000000001 and label is 4
+   4.557 neg_l(omg)==0.8 and label is 4
+   4.450 neg_l(shed)==0.7000000000000001 and label is 4
+   4.435 neg_r(auditorium)==0.0 and label is 0
+   4.378 neg_l(disconnect)==0.5000000000000001 and label is 4
+   4.335 neg_l(frend)==0.0 and label is 0
+   4.217 neg_r(__hash_3turnoffword)==0.0 and label is 4
+   4.210 neg_l(babbi)==0.0 and label is 0
+   4.048 neg_l(craigslist)==0.9 and label is 4
+   4.047 neg_r(church)==0.9 and label is 4
+   3.991 neg_l(cathol)==0.9 and label is 0
+  -3.987 neg_l(cool)==0.9 and label is 4
+   3.984 neg_l(famili)==0.9 and label is 4
+   3.921 neg_l(buut)==0.6000000000000001 and label is 4
+   3.906 neg_r(bedtim)==0.5000000000000001 and label is 4
+   3.879 neg_r(brisban)==0.40000000000000013 and label is 4
+   3.874 neg_r(faceti)==0.0 and label is 4
+   3.868 neg_l(depart)==0.9 and label is 4
+   3.831 neg_r(journey)==0.7000000000000001 and label is 4
+   3.821 neg_r(empti)==0.9 and label is 4
+   3.816 neg_l(sweet)==0.9 and label is 0
+   3.813 neg_l(babbi)==0.5000000000000001 and label is 4
+   3.791 neg_r(tast)==0.8 and label is 0
+   3.783 neg_r(si)==0.8 and label is 4
+   3.778 neg_l(annoy)==0.9 and label is 4
+   3.776 neg_l(everybodi)==1.3877787807814457e-16 and label is 4
+   3.772 neg_l(whistl)==0.9 and label is 0
+   3.764 neg_l(camp)==0.5000000000000001 and label is 4
+   3.759 neg_l(stall)==0.9 and label is 4
+  -3.747 neg_l(phone)==0.7000000000000001 and label is 4
+   3.743 neg_l(critic)==0.6000000000000001 and label is 4
+   3.733 neg_l(blah)==0.9 and label is 4
+   3.714 neg_l(gurl)==0.5000000000000001 and label is 0
+   3.698 neg_r(nina)==0.5000000000000001 and label is 4
+   3.696 neg_l(sail)==0.9 and label is 0
+   3.681 neg_l(warm)==0.6000000000000001 and label is 4
+   3.654 neg_l(hancock)==0.0 and label is 4
+   3.638 neg_l(dilodid)==0.0 and label is 4
+   3.638 neg_r(dilodid)==0.0 and label is 4
+   3.638 has(dilodid)==1 and label is 4
+   3.629 neg_l(proud)==0.8 and label is 0
+   3.613 neg_l(pensecola)==0.0 and label is 4
+   3.613 neg_r(pensecola)==0.0 and label is 4
+   3.613 has(pensecola)==1 and label is 4
+   3.599 neg_l(cuf)==0.0 and label is 4
+   3.599 neg_r(cuf)==0.0 and label is 4
+   3.599 has(cuf)==1 and label is 4
+   3.594 neg_l(bless)==0.30000000000000016 and label is 0
+   3.591 neg_l(robot)==0.9 and label is 4
+   3.568 neg_l(grandma)==0.8 and label is 4
+   3.559 neg_l(downstair)==0.5000000000000001 and label is 4
+   3.558 neg_l(discharg)==0.0 and label is 4
+   3.556 neg_l(palmdal)==0.0 and label is 4
+   3.556 neg_r(palmdal)==0.0 and label is 4
+   3.556 has(palmdal)==1 and label is 4
+   3.555 neg_r(4pm)==0.9 and label is 4
+   3.544 neg_l(spous)==0.8 and label is 0
+   3.541 neg_l(wordcamp)==0.0 and label is 4
+   3.541 neg_r(wordcamp)==0.0 and label is 4
+   3.541 has(wordcamp)==1 and label is 4
+   3.529 neg_l(dope)==0.5000000000000001 and label is 0
+   3.520 neg_l(amazziingg)==0.0 and label is 4
+   3.520 neg_r(amazziingg)==0.0 and label is 4
+   3.520 has(amazziingg)==1 and label is 4
+   3.478 neg_l(victoria)==0.7000000000000001 and label is 4
+   3.474 neg_r(wobbl)==0.0 and label is 0
+   3.473 neg_l(cake)==0.8 and label is 0
+   3.467 neg_r(feder)==0.8 and label is 0
+   3.459 neg_l(older)==0.7000000000000001 and label is 0
+   3.457 neg_l(punch)==0.9 and label is 4
+  -3.445 neg_l(duh)==0.0 and label is 0
+   3.443 neg_l(horribl)==0.8 and label is 4
+   3.443 neg_r(loss)==0.5000000000000001 and label is 4
+   3.442 neg_l(urrgghh)==0.0 and label is 4
+   3.442 neg_r(urrgghh)==0.0 and label is 4
+   3.442 has(urrgghh)==1 and label is 4
+   3.440 neg_l(launch)==0.9 and label is 4
+   3.437 neg_r(45min)==0.0 and label is 0
+   3.433 neg_r(damit)==0.0 and label is 0
+   3.407 neg_r(pie)==0.7000000000000001 and label is 4
+   3.386 neg_l(selfish)==0.9 and label is 4
+   3.380 neg_l(rubbish)==0.8 and label is 4
+   3.368 neg_l(cheap)==0.40000000000000013 and label is 4
+   3.349 neg_l(raheem)==0.0 and label is 0
+   3.349 neg_r(raheem)==0.0 and label is 0
+   3.349 has(raheem)==1 and label is 0
+   3.346 neg_l(friend_someon)==0.0 and label is 4
+   3.346 neg_r(friend_someon)==0.0 and label is 4
+   3.346 has(friend_someon)==1 and label is 4
+   3.329 neg_r(count)==0.8 and label is 0
+   3.322 neg_l(dual)==0.6000000000000001 and label is 4
+   3.317 neg_l(monster)==0.9 and label is 0
+None
+######################
+Accuracy : 0.763
+Confusion Matrix 
+  |    0    4 |
+--+-----------+
+0 |<7607>2355 |
+4 | 2385<7653>|
+--+-----------+
+(row = reference; col = test)
+
+length of train tweets 80000
+length of test tweets 20000
+  ==> Training (100 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.500
+             2          -0.59248        0.831
+             3          -0.52617        0.839
+             4          -0.47998        0.846
+             5          -0.44583        0.852
+             6          -0.41934        0.858
+             7          -0.39805        0.863
+             8          -0.38044        0.866
+             9          -0.36555        0.870
+            10          -0.35275        0.873
+            11          -0.34158        0.876
+            12          -0.33172        0.878
+            13          -0.32293        0.880
+            14          -0.31502        0.883
+            15          -0.30786        0.884
+            16          -0.30133        0.886
+            17          -0.29534        0.888
+            18          -0.28983        0.889
+            19          -0.28473        0.891
+            20          -0.27999        0.892
+            21          -0.27557        0.893
+            22          -0.27144        0.894
+            23          -0.26757        0.895
+            24          -0.26392        0.896
+            25          -0.26049        0.897
+            26          -0.25725        0.898
+            27          -0.25418        0.899
+            28          -0.25126        0.900
+            29          -0.24850        0.900
+            30          -0.24586        0.901
+            31          -0.24335        0.902
+            32          -0.24095        0.902
+            33          -0.23866        0.903
+            34          -0.23647        0.903
+            35          -0.23437        0.904
+            36          -0.23235        0.904
+            37          -0.23041        0.905
+            38          -0.22855        0.905
+            39          -0.22676        0.906
+            40          -0.22503        0.906
+            41          -0.22337        0.907
+            42          -0.22176        0.907
+            43          -0.22021        0.907
+            44          -0.21871        0.908
+            45          -0.21726        0.908
+            46          -0.21586        0.908
+            47          -0.21450        0.908
+            48          -0.21319        0.909
+            49          -0.21191        0.909
+            50          -0.21067        0.909
+            51          -0.20947        0.910
+            52          -0.20830        0.910
+            53          -0.20717        0.910
+            54          -0.20606        0.911
+            55          -0.20499        0.911
+            56          -0.20395        0.911
+            57          -0.20293        0.911
+            58          -0.20194        0.911
+            59          -0.20098        0.912
+            60          -0.20004        0.912
+            61          -0.19912        0.912
+            62          -0.19822        0.912
+            63          -0.19735        0.913
+            64          -0.19650        0.913
+            65          -0.19567        0.913
+            66          -0.19485        0.913
+            67          -0.19406        0.913
+            68          -0.19328        0.913
+            69          -0.19252        0.913
+            70          -0.19178        0.914
+            71          -0.19105        0.914
+            72          -0.19034        0.914
+            73          -0.18964        0.914
+            74          -0.18896        0.914
+            75          -0.18829        0.914
+            76          -0.18763        0.914
+            77          -0.18699        0.915
+            78          -0.18636        0.915
+            79          -0.18574        0.915
+            80          -0.18514        0.915
+            81          -0.18454        0.915
+            82          -0.18396        0.915
+            83          -0.18339        0.915
+            84          -0.18283        0.915
+            85          -0.18228        0.916
+            86          -0.18174        0.916
+            87          -0.18120        0.916
+            88          -0.18068        0.916
+            89          -0.18017        0.916
+            90          -0.17966        0.916
+            91          -0.17917        0.916
+            92          -0.17868        0.916
+            93          -0.17820        0.916
+            94          -0.17773        0.916
+            95          -0.17727        0.917
+            96          -0.17681        0.917
+            97          -0.17636        0.917
+            98          -0.17592        0.917
+            99          -0.17549        0.917
+         Final          -0.17506        0.917
+######################
+1 Step Classifier :  RTEClassifier
+Accuracy :  0.76985
+######################
+  -6.377 neg_l(happi)==0.9 and label is 4
+   5.575 neg_r(okayi)==0.9 and label is 4
+   5.501 neg_r(__hash_3turnoffword)==0.0 and label is 4
+   5.236 neg_l(mice)==0.8 and label is 0
+   4.970 neg_l(dissapoint)==0.9 and label is 4
+   4.911 neg_l(disconnect)==0.5000000000000001 and label is 4
+   4.802 neg_l(weak)==0.7000000000000001 and label is 4
+   4.789 neg_l(spazz)==0.0 and label is 0
+   4.707 neg_l(omg)==0.8 and label is 4
+   4.578 neg_l(figur)==0.6000000000000001 and label is 4
+   4.539 neg_l(selfish)==0.9 and label is 4
+   4.472 neg_l(kfest)==0.0 and label is 4
+   4.452 neg_r(nina)==0.5000000000000001 and label is 4
+   4.364 neg_r(bedtim)==0.5000000000000001 and label is 4
+   4.229 neg_l(depart)==0.9 and label is 4
+   4.194 neg_l(jax)==0.9 and label is 4
+   4.175 neg_r(poach)==0.0 and label is 0
+   4.165 neg_l(cheat)==0.5000000000000001 and label is 4
+   4.162 neg_l(salari)==0.7000000000000001 and label is 0
+   4.148 neg_l(rubbish)==0.8 and label is 4
+   4.132 neg_r(damit)==0.0 and label is 0
+   4.115 neg_l(poker)==0.8 and label is 4
+   4.114 neg_l(nal)==0.0 and label is 4
+   4.114 neg_r(nal)==0.0 and label is 4
+   4.114 has(nal)==1 and label is 4
+   4.020 neg_r(lunchtim)==0.9 and label is 4
+   4.007 neg_l(tiger)==0.7000000000000001 and label is 0
+   4.003 neg_r(auditorium)==0.0 and label is 0
+   3.989 neg_l(sail)==0.9 and label is 0
+   3.972 neg_l(famili)==0.9 and label is 4
+   3.956 neg_l(lone)==0.9 and label is 4
+   3.953 neg_r(faceti)==0.0 and label is 4
+   3.938 neg_l(whistl)==0.9 and label is 0
+   3.835 neg_r(church)==0.9 and label is 4
+   3.833 neg_l(hancock)==0.0 and label is 4
+   3.829 neg_r(dure)==0.7000000000000001 and label is 4
+   3.822 neg_l(difficult)==0.9 and label is 4
+   3.802 neg_r(journey)==0.7000000000000001 and label is 4
+   3.762 neg_l(hahaha)==0.30000000000000016 and label is 4
+   3.745 neg_l(cathol)==0.9 and label is 0
+   3.737 neg_l(dilodid)==0.0 and label is 4
+   3.737 neg_r(dilodid)==0.0 and label is 4
+   3.737 has(dilodid)==1 and label is 4
+   3.722 neg_r(kathi)==0.8 and label is 4
+   3.720 neg_r(4am)==0.7000000000000001 and label is 4
+   3.705 neg_l(nois)==0.7000000000000001 and label is 4
+   3.686 neg_l(raheem)==0.0 and label is 0
+   3.686 neg_r(raheem)==0.0 and label is 0
+   3.686 has(raheem)==1 and label is 0
+   3.680 neg_r(sleepyhead)==0.0 and label is 4
+   3.672 neg_r(yawn)==0.8 and label is 4
+   3.668 neg_l(woken)==0.9 and label is 4
+   3.646 neg_r(screenplay)==0.0 and label is 0
+   3.641 neg_l(buut)==0.6000000000000001 and label is 4
+   3.631 neg_l(strong)==0.9 and label is 0
+   3.618 neg_r(brook)==0.9 and label is 0
+   3.607 neg_l(bless)==0.30000000000000016 and label is 0
+   3.603 neg_l(discharg)==0.0 and label is 4
+   3.587 neg_l(everybodi)==1.3877787807814457e-16 and label is 4
+   3.559 neg_l(wordcamp)==0.0 and label is 4
+   3.559 neg_r(wordcamp)==0.0 and label is 4
+   3.559 has(wordcamp)==1 and label is 4
+   3.547 neg_l(brooklyn)==0.8 and label is 4
+   3.543 neg_l(stall)==0.9 and label is 4
+   3.538 neg_r(awe)==0.8 and label is 4
+   3.534 neg_l(punch)==0.9 and label is 4
+   3.533 neg_l(gut)==0.9 and label is 4
+   3.533 neg_r(choc)==0.8 and label is 4
+   3.526 neg_l(downstair)==0.5000000000000001 and label is 4
+   3.518 neg_l(annoy)==0.9 and label is 4
+   3.517 neg_r(si)==0.8 and label is 4
+   3.510 neg_r(pie)==0.7000000000000001 and label is 4
+   3.505 neg_l(robot)==0.9 and label is 4
+   3.454 neg_l(disagre)==0.9 and label is 4
+   3.439 neg_l(heeheh)==0.0 and label is 4
+   3.439 neg_r(heeheh)==0.0 and label is 4
+   3.439 has(heeheh)==1 and label is 4
+  -3.435 neg_l(cool)==0.9 and label is 4
+   3.435 neg_l(palmdal)==0.0 and label is 4
+   3.435 neg_r(palmdal)==0.0 and label is 4
+   3.435 has(palmdal)==1 and label is 4
+   3.431 neg_r(mine)==0.5000000000000001 and label is 4
+   3.421 neg_l(blah)==0.9 and label is 4
+   3.414 neg_l(christma)==0.40000000000000013 and label is 4
+   3.403 neg_l(urrgghh)==0.0 and label is 4
+   3.403 neg_r(urrgghh)==0.0 and label is 4
+   3.403 has(urrgghh)==1 and label is 4
+   3.398 neg_l(urself)==0.8 and label is 0
+   3.396 neg_l(cuf)==0.0 and label is 4
+   3.396 neg_r(cuf)==0.0 and label is 4
+   3.396 has(cuf)==1 and label is 4
+   3.390 neg_l(horribl)==0.8 and label is 4
+   3.390 neg_r(loss)==0.5000000000000001 and label is 4
+   3.374 neg_l(monster)==0.9 and label is 0
+   3.370 neg_r(took)==0.9 and label is 0
+   3.370 neg_l(top)==0.9 and label is 4
+   3.364 neg_l(victoria)==0.7000000000000001 and label is 4
+   3.360 neg_l(no1)==0.8 and label is 4
+   3.356 neg_l(amazziingg)==0.0 and label is 4
+   3.356 neg_r(amazziingg)==0.0 and label is 4
+None
+######################
+Accuracy : 0.76985
+Confusion Matrix 
+  |    0    4 |
+--+-----------+
+0 |<7613>2314 |
+4 | 2289<7784>|
+--+-----------+
+(row = reference; col = test)
+
+length of train tweets 80000
+length of test tweets 20000
+  ==> Training (100 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.502
+             2          -0.59246        0.831
+             3          -0.52610        0.838
+             4          -0.47988        0.846
+             5          -0.44569        0.853
+             6          -0.41916        0.858
+             7          -0.39783        0.862
+             8          -0.38019        0.867
+             9          -0.36528        0.870
+            10          -0.35245        0.874
+            11          -0.34126        0.876
+            12          -0.33138        0.879
+            13          -0.32257        0.881
+            14          -0.31465        0.883
+            15          -0.30748        0.885
+            16          -0.30094        0.887
+            17          -0.29495        0.888
+            18          -0.28943        0.890
+            19          -0.28432        0.891
+            20          -0.27958        0.892
+            21          -0.27516        0.893
+            22          -0.27103        0.895
+            23          -0.26716        0.896
+            24          -0.26352        0.897
+            25          -0.26008        0.898
+            26          -0.25684        0.899
+            27          -0.25377        0.899
+            28          -0.25086        0.900
+            29          -0.24809        0.901
+            30          -0.24546        0.902
+            31          -0.24295        0.902
+            32          -0.24056        0.903
+            33          -0.23827        0.903
+            34          -0.23608        0.904
+            35          -0.23398        0.904
+            36          -0.23197        0.905
+            37          -0.23003        0.905
+            38          -0.22818        0.906
+            39          -0.22639        0.906
+            40          -0.22467        0.907
+            41          -0.22301        0.907
+            42          -0.22140        0.907
+            43          -0.21986        0.908
+            44          -0.21836        0.908
+            45          -0.21692        0.908
+            46          -0.21552        0.909
+            47          -0.21417        0.909
+            48          -0.21285        0.909
+            49          -0.21158        0.909
+            50          -0.21035        0.910
+            51          -0.20915        0.910
+            52          -0.20799        0.910
+            53          -0.20686        0.910
+            54          -0.20576        0.911
+            55          -0.20469        0.911
+            56          -0.20365        0.911
+            57          -0.20264        0.911
+            58          -0.20166        0.912
+            59          -0.20070        0.912
+            60          -0.19976        0.912
+            61          -0.19885        0.912
+            62          -0.19796        0.913
+            63          -0.19709        0.913
+            64          -0.19624        0.913
+            65          -0.19541        0.913
+            66          -0.19460        0.914
+            67          -0.19381        0.914
+            68          -0.19304        0.914
+            69          -0.19229        0.914
+            70          -0.19155        0.914
+            71          -0.19082        0.914
+            72          -0.19012        0.914
+            73          -0.18942        0.914
+            74          -0.18875        0.914
+            75          -0.18808        0.915
+            76          -0.18743        0.915
+            77          -0.18679        0.915
+            78          -0.18617        0.915
+            79          -0.18555        0.915
+            80          -0.18495        0.915
+            81          -0.18436        0.915
+            82          -0.18378        0.916
+            83          -0.18322        0.916
+            84          -0.18266        0.916
+            85          -0.18211        0.916
+            86          -0.18158        0.916
+            87          -0.18105        0.916
+            88          -0.18053        0.916
+            89          -0.18002        0.916
+            90          -0.17952        0.916
+            91          -0.17903        0.916
+            92          -0.17854        0.916
+            93          -0.17807        0.917
+            94          -0.17760        0.917
+            95          -0.17714        0.917
+            96          -0.17669        0.917
+            97          -0.17625        0.917
+            98          -0.17581        0.917
+            99          -0.17538        0.917
+         Final          -0.17495        0.917
+######################
+1 Step Classifier :  RTEClassifier
+Accuracy :  0.76435
+######################
+  -6.147 neg_l(happi)==0.9 and label is 4
+   5.785 neg_l(online)==0.0 and label is 4
+   5.585 neg_l(dissapoint)==0.9 and label is 4
+   5.444 neg_r(okayi)==0.9 and label is 4
+   5.373 neg_l(fals)==0.9 and label is 4
+   5.051 neg_r(damit)==0.0 and label is 0
+   4.926 neg_l(nando)==0.8 and label is 4
+   4.887 neg_l(figur)==0.6000000000000001 and label is 4
+   4.822 neg_l(omg)==0.8 and label is 4
+   4.706 neg_l(critic)==0.6000000000000001 and label is 4
+   4.453 neg_r(lunchtim)==0.9 and label is 4
+   4.406 neg_l(shed)==0.7000000000000001 and label is 4
+   4.306 neg_l(weak)==0.7000000000000001 and label is 4
+   4.301 neg_l(disconnect)==0.5000000000000001 and label is 4
+   4.251 neg_l(poker)==0.8 and label is 4
+   4.189 neg_r(bedtim)==0.5000000000000001 and label is 4
+   4.155 neg_l(swoon)==0.6000000000000001 and label is 4
+   4.107 neg_l(rubbish)==0.8 and label is 4
+  -4.101 neg_l(hard)==0.8 and label is 0
+   4.077 neg_l(grandma)==0.8 and label is 4
+   4.059 neg_l(weirdo)==0.0 and label is 4
+   4.058 neg_l(heeheh)==0.0 and label is 4
+   4.058 neg_r(heeheh)==0.0 and label is 4
+   4.058 has(heeheh)==1 and label is 4
+   4.045 neg_r(__hash_3turnoffword)==0.0 and label is 4
+   3.985 neg_l(cuf)==0.0 and label is 4
+   3.985 neg_r(cuf)==0.0 and label is 4
+   3.985 has(cuf)==1 and label is 4
+   3.962 neg_l(famili)==0.9 and label is 4
+   3.950 neg_r(poach)==0.0 and label is 0
+   3.946 neg_l(proud)==0.8 and label is 0
+   3.939 neg_l(waah)==0.6000000000000001 and label is 4
+   3.924 neg_l(spous)==0.8 and label is 0
+   3.915 neg_l(raheem)==0.0 and label is 0
+   3.915 neg_r(raheem)==0.0 and label is 0
+   3.915 has(raheem)==1 and label is 0
+   3.899 neg_l(whistl)==0.9 and label is 0
+   3.894 neg_r(4pm)==0.9 and label is 4
+   3.872 neg_l(babbi)==0.0 and label is 0
+   3.822 neg_r(thinkin)==0.5000000000000001 and label is 4
+   3.819 neg_l(difficult)==0.9 and label is 4
+   3.788 neg_r(church)==0.9 and label is 4
+   3.778 neg_l(horribl)==0.8 and label is 4
+   3.778 neg_r(loss)==0.5000000000000001 and label is 4
+  -3.749 neg_l(duh)==0.0 and label is 0
+   3.728 neg_l(depart)==0.9 and label is 4
+  -3.710 has(confid)==1 and label is 0
+   3.702 neg_r(brisban)==0.40000000000000013 and label is 4
+   3.696 neg_l(gurl)==0.5000000000000001 and label is 0
+   3.665 neg_l(gimm)==0.9 and label is 0
+   3.646 neg_l(strong)==0.9 and label is 0
+   3.642 neg_l(wrote)==0.8 and label is 4
+   3.639 neg_l(sail)==0.9 and label is 0
+   3.633 neg_l(cheat)==0.5000000000000001 and label is 4
+   3.616 neg_l(punch)==0.9 and label is 4
+   3.615 neg_l(intranet)==0.0 and label is 4
+   3.575 neg_l(eeyer)==0.0 and label is 4
+   3.575 neg_r(eeyer)==0.7000000000000001 and label is 4
+   3.563 neg_r(journey)==0.7000000000000001 and label is 4
+   3.558 neg_r(empti)==0.9 and label is 4
+   3.519 neg_l(robot)==0.9 and label is 4
+   3.512 neg_l(everybodi)==1.3877787807814457e-16 and label is 4
+   3.508 neg_l(beep)==0.0 and label is 4
+   3.497 neg_l(hahaha)==0.30000000000000016 and label is 4
+   3.490 neg_r(screenplay)==0.0 and label is 0
+   3.463 neg_r(si)==0.8 and label is 4
+   3.441 neg_l(urrgghh)==0.0 and label is 4
+   3.441 neg_r(urrgghh)==0.0 and label is 4
+   3.441 has(urrgghh)==1 and label is 4
+   3.435 neg_l(whatchu)==0.0 and label is 0
+   3.423 neg_l(babbi)==0.5000000000000001 and label is 4
+   3.422 neg_r(bgt)==0.6000000000000001 and label is 4
+   3.418 neg_l(tiger)==0.7000000000000001 and label is 0
+   3.416 neg_l(warm)==0.6000000000000001 and label is 4
+   3.414 neg_r(said)==1.3877787807814457e-16 and label is 4
+   3.401 neg_l(followin)==0.8 and label is 0
+  -3.392 neg_l(cool)==0.9 and label is 4
+   3.383 neg_l(gay)==0.9 and label is 0
+   3.374 neg_l(laker)==0.9 and label is 0
+   3.371 neg_r(rudi)==0.0 and label is 4
+   3.366 neg_l(top)==0.9 and label is 4
+   3.356 neg_l(hannah)==0.9 and label is 0
+   3.343 neg_r(noon)==0.9 and label is 4
+   3.337 neg_l(bless)==0.30000000000000016 and label is 0
+   3.318 neg_l(smart)==0.6000000000000001 and label is 4
+   3.314 neg_l(codi)==0.40000000000000013 and label is 4
+  -3.308 neg_r(link)==0.9 and label is 4
+   3.298 neg_l(ili)==1.3877787807814457e-16 and label is 0
+   3.297 neg_r(direct)==0.5000000000000001 and label is 4
+   3.290 neg_l(geek)==0.9 and label is 0
+   3.282 neg_l(pensecola)==0.0 and label is 4
+   3.282 neg_r(pensecola)==0.0 and label is 4
+   3.282 has(pensecola)==1 and label is 4
+   3.274 neg_l(adicct)==0.0 and label is 0
+   3.274 neg_r(adicct)==0.0 and label is 0
+   3.274 has(adicct)==1 and label is 0
+   3.269 neg_r(lik)==0.6000000000000001 and label is 4
+   3.269 neg_r(pho)==0.7000000000000001 and label is 4
+   3.255 neg_l(camp)==0.5000000000000001 and label is 4
+   3.251 neg_r(lori)==0.7000000000000001 and label is 0
+None
+######################
+Accuracy : 0.76435
+Confusion Matrix 
+  |    0    4 |
+--+-----------+
+0 |<7703>2352 |
+4 | 2361<7584>|
+--+-----------+
+(row = reference; col = test)
+
+length of train tweets 80000
+length of test tweets 20000
+  ==> Training (100 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.500
+             2          -0.59202        0.829
+             3          -0.52554        0.838
+             4          -0.47930        0.846
+             5          -0.44516        0.852
+             6          -0.41871        0.858
+             7          -0.39745        0.862
+             8          -0.37989        0.866
+             9          -0.36506        0.869
+            10          -0.35231        0.872
+            11          -0.34119        0.875
+            12          -0.33137        0.877
+            13          -0.32263        0.879
+            14          -0.31476        0.881
+            15          -0.30764        0.883
+            16          -0.30115        0.885
+            17          -0.29520        0.886
+            18          -0.28972        0.888
+            19          -0.28465        0.889
+            20          -0.27995        0.890
+            21          -0.27556        0.892
+            22          -0.27146        0.893
+            23          -0.26761        0.894
+            24          -0.26400        0.895
+            25          -0.26059        0.896
+            26          -0.25737        0.896
+            27          -0.25432        0.897
+            28          -0.25143        0.898
+            29          -0.24868        0.899
+            30          -0.24607        0.900
+            31          -0.24358        0.900
+            32          -0.24120        0.901
+            33          -0.23893        0.901
+            34          -0.23675        0.902
+            35          -0.23467        0.902
+            36          -0.23267        0.903
+            37          -0.23075        0.903
+            38          -0.22890        0.904
+            39          -0.22712        0.904
+            40          -0.22541        0.904
+            41          -0.22376        0.905
+            42          -0.22217        0.905
+            43          -0.22064        0.906
+            44          -0.21915        0.906
+            45          -0.21771        0.907
+            46          -0.21633        0.907
+            47          -0.21498        0.908
+            48          -0.21368        0.908
+            49          -0.21241        0.908
+            50          -0.21119        0.909
+            51          -0.21000        0.909
+            52          -0.20884        0.909
+            53          -0.20772        0.909
+            54          -0.20663        0.910
+            55          -0.20556        0.910
+            56          -0.20453        0.910
+            57          -0.20352        0.910
+            58          -0.20255        0.911
+            59          -0.20159        0.911
+            60          -0.20066        0.911
+            61          -0.19975        0.911
+            62          -0.19887        0.911
+            63          -0.19800        0.912
+            64          -0.19716        0.912
+            65          -0.19634        0.912
+            66          -0.19553        0.912
+            67          -0.19475        0.912
+            68          -0.19398        0.912
+            69          -0.19323        0.913
+            70          -0.19249        0.913
+            71          -0.19177        0.913
+            72          -0.19107        0.913
+            73          -0.19038        0.913
+            74          -0.18970        0.913
+            75          -0.18904        0.913
+            76          -0.18839        0.914
+            77          -0.18776        0.914
+            78          -0.18714        0.914
+            79          -0.18653        0.914
+            80          -0.18593        0.914
+            81          -0.18534        0.914
+            82          -0.18477        0.914
+            83          -0.18420        0.914
+            84          -0.18365        0.914
+            85          -0.18310        0.915
+            86          -0.18257        0.915
+            87          -0.18204        0.915
+            88          -0.18153        0.915
+            89          -0.18102        0.915
+            90          -0.18052        0.915
+            91          -0.18003        0.915
+            92          -0.17955        0.915
+            93          -0.17908        0.916
+            94          -0.17861        0.916
+            95          -0.17815        0.916
+            96          -0.17770        0.916
+            97          -0.17726        0.916
+            98          -0.17682        0.916
+            99          -0.17640        0.916
+         Final          -0.17597        0.916
+######################
+1 Step Classifier :  RTEClassifier
+Accuracy :  0.7698
+######################
+   8.876 neg_l(dissapoint)==0.9 and label is 4
+   7.067 neg_r(okayi)==0.9 and label is 4
+  -6.483 neg_l(happi)==0.9 and label is 4
+   6.029 neg_l(fals)==0.9 and label is 4
+  -5.507 neg_l(cool)==0.9 and label is 4
+   5.465 neg_l(weak)==0.7000000000000001 and label is 4
+   5.149 neg_l(father)==0.8 and label is 4
+   4.751 neg_r(damit)==0.0 and label is 0
+   4.696 neg_l(omg)==0.8 and label is 4
+   4.657 neg_l(sail)==0.9 and label is 0
+   4.625 neg_l(critic)==0.6000000000000001 and label is 4
+  -4.527 neg_l(nice)==0.9 and label is 4
+   4.521 neg_r(showertim)==0.0 and label is 4
+   4.510 neg_l(top)==0.9 and label is 4
+   4.471 neg_r(auditorium)==0.0 and label is 0
+   4.429 neg_l(jax)==0.9 and label is 4
+   4.341 neg_l(sportscent)==0.0 and label is 4
+   4.285 neg_l(whistl)==0.9 and label is 0
+  -4.211 neg_l(forward)==0.8 and label is 4
+   4.171 neg_l(mustach)==0.6000000000000001 and label is 4
+   4.152 neg_r(worthless)==0.9 and label is 4
+   4.118 neg_r(faceti)==0.0 and label is 4
+   4.097 neg_l(disconnect)==0.5000000000000001 and label is 4
+   4.095 neg_r(guard)==0.7000000000000001 and label is 0
+   4.084 neg_l(shed)==0.7000000000000001 and label is 4
+   4.063 neg_l(babbi)==0.0 and label is 0
+   4.063 neg_r(arggh)==0.8 and label is 0
+   4.050 neg_l(trilog)==0.0 and label is 4
+   4.049 neg_l(downstair)==0.5000000000000001 and label is 4
+   4.034 neg_l(gurl)==0.5000000000000001 and label is 0
+   4.021 neg_l(spous)==0.8 and label is 0
+   3.994 neg_l(difficult)==0.9 and label is 4
+   3.984 neg_l(poker)==0.8 and label is 4
+   3.972 neg_l(hancock)==0.0 and label is 4
+   3.964 neg_r(4pm)==0.9 and label is 4
+   3.863 neg_r(bedtim)==0.5000000000000001 and label is 4
+   3.854 neg_r(monro)==0.0 and label is 4
+   3.825 neg_r(church)==0.9 and label is 4
+   3.823 neg_l(nois)==0.7000000000000001 and label is 4
+   3.823 neg_r(kathi)==0.8 and label is 4
+  -3.801 neg_l(hard)==0.8 and label is 0
+   3.794 neg_l(hahaha)==0.30000000000000016 and label is 4
+   3.789 neg_l(cheat)==0.5000000000000001 and label is 4
+   3.780 neg_r(pie)==0.7000000000000001 and label is 4
+   3.776 neg_r(thinkin)==0.5000000000000001 and label is 4
+   3.768 neg_l(blah)==0.9 and label is 4
+   3.734 neg_l(babbi)==0.5000000000000001 and label is 4

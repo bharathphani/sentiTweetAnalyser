@@ -1,0 +1,658 @@
+MaxentClassifier_1step_ngram1_negtnTrue
+length of train tweets 80000
+length of test tweets 20000
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.501
+             2          -0.69312        0.830
+             3          -0.69309        0.830
+             4          -0.69305        0.830
+             5          -0.69302        0.830
+             6          -0.69299        0.830
+             7          -0.69296        0.830
+             8          -0.69293        0.830
+             9          -0.69290        0.830
+         Final          -0.69287        0.830
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  0.76385
+######################
+  -0.000 has(urgh)==1 and label is 4
+  -0.000 neg_l(urgh)==0.0 and label is 4
+  -0.000 neg_l(phone)==0.7000000000000001 and label is 4
+  -0.000 neg_l(bummer)==0.0 and label is 4
+  -0.000 neg_r(urgh)==0.0 and label is 4
+  -0.000 neg_r(sad)==0.9 and label is 4
+  -0.000 neg_l(sad)==0.6000000000000001 and label is 4
+  -0.000 neg_r(hayfev)==0.0 and label is 4
+  -0.000 neg_l(depress)==0.0 and label is 4
+  -0.000 neg_l(forward)==0.8 and label is 4
+  -0.000 has(yuck)==1 and label is 4
+  -0.000 neg_r(sadli)==0.9 and label is 4
+  -0.000 neg_r(bad)==0.6000000000000001 and label is 4
+  -0.000 neg_r(link)==0.9 and label is 4
+  -0.000 neg_r(yuck)==0.0 and label is 4
+  -0.000 neg_l(sad)==0.7000000000000001 and label is 4
+  -0.000 neg_l(move)==0.9 and label is 4
+  -0.000 neg_l(__hash_followfriday)==0.0 and label is 0
+  -0.000 neg_r(__hash_followfriday)==0.0 and label is 0
+  -0.000 neg_l(upset)==0.0 and label is 4
+  -0.000 neg_r(sob)==0.0 and label is 4
+  -0.000 neg_l(yuck)==0.0 and label is 4
+  -0.000 has(miser)==1 and label is 4
+  -0.000 has(migrain)==1 and label is 4
+  -0.000 neg_l(cool)==0.9 and label is 4
+  -0.000 has(unfair)==1 and label is 4
+  -0.000 neg_r(iphon)==0.8 and label is 4
+  -0.000 neg_r(phone)==0.8 and label is 4
+  -0.000 neg_l(swollen)==0.0 and label is 4
+  -0.000 has(swollen)==1 and label is 4
+  -0.000 has(__hash_followfriday)==1 and label is 0
+  -0.000 neg_l(sob)==0.0 and label is 4
+  -0.000 neg_l(miser)==0.0 and label is 4
+  -0.000 has(3g)==1 and label is 4
+  -0.000 neg_r(ankl)==0.0 and label is 4
+  -0.000 neg_l(sad)==0.5000000000000001 and label is 4
+  -0.000 neg_r(swollen)==0.0 and label is 4
+  -0.000 neg_r(sad)==0.0 and label is 4
+  -0.000 neg_r(miser)==0.0 and label is 4
+  -0.000 neg_l(migrain)==0.0 and label is 4
+  -0.000 neg_l(sad)==0.0 and label is 4
+  -0.000 neg_l(stolen)==0.0 and label is 4
+  -0.000 neg_l(3g)==0.0 and label is 4
+  -0.000 neg_r(would)==0.8 and label is 4
+  -0.000 neg_l(avail)==0.9 and label is 4
+  -0.000 neg_r(__hash_musicmonday)==0.0 and label is 0
+  -0.000 neg_r(ugh)==0.9 and label is 4
+  -0.000 neg_r(miss)==0.40000000000000013 and label is 4
+  -0.000 has(sad)==1 and label is 4
+  -0.000 neg_l(accent)==0.0 and label is 0
+  -0.000 neg_r(unfair)==0.0 and label is 4
+  -0.000 neg_l(promo)==0.0 and label is 0
+  -0.000 neg_r(sick)==0.9 and label is 4
+  -0.000 neg_l(feel)==0.40000000000000013 and label is 4
+  -0.000 has(depress)==1 and label is 4
+  -0.000 neg_l(anymor)==0.7000000000000001 and label is 4
+  -0.000 has(unhappi)==1 and label is 4
+  -0.000 neg_l(unfair)==0.0 and label is 4
+  -0.000 has(comedi)==1 and label is 0
+  -0.000 neg_r(mine)==0.9 and label is 4
+  -0.000 neg_l(chang)==0.8 and label is 4
+  -0.000 neg_l(playlist)==0.0 and label is 0
+  -0.000 neg_r(playlist)==0.0 and label is 0
+  -0.000 has(playlist)==1 and label is 0
+  -0.000 neg_l(followfriday)==0.0 and label is 0
+  -0.000 neg_l(play)==0.8 and label is 4
+  -0.000 neg_l(whi)==0.7000000000000001 and label is 4
+  -0.000 neg_r(realli)==0.30000000000000016 and label is 4
+  -0.000 neg_r(migrain)==0.0 and label is 4
+  -0.000 has(throat)==1 and label is 4
+  -0.000 neg_l(headach)==0.0 and label is 4
+  -0.000 neg_l(disappoint)==0.0 and label is 4
+  -0.000 neg_r(shatter)==0.0 and label is 4
+  -0.000 has(shatter)==1 and label is 4
+  -0.000 has(icki)==1 and label is 4
+  -0.000 neg_l(infect)==0.0 and label is 4
+  -0.000 neg_r(soo)==0.6000000000000001 and label is 4
+  -0.000 neg_r(morn)==0.7000000000000001 and label is 4
+  -0.000 has(headach)==1 and label is 4
+  -0.000 neg_r(headach)==0.0 and label is 4
+  -0.000 neg_l(duh)==0.0 and label is 0
+  -0.000 neg_l(educ)==0.0 and label is 0
+  -0.000 has(handsom)==1 and label is 0
+  -0.000 neg_r(icki)==0.0 and label is 4
+  -0.000 neg_l(zac)==0.0 and label is 0
+  -0.000 has(zac)==1 and label is 0
+  -0.000 neg_r(swedish)==0.0 and label is 0
+  -0.000 has(swedish)==1 and label is 0
+  -0.000 neg_l(live)==0.7000000000000001 and label is 4
+  -0.000 neg_r(man)==0.9 and label is 4
+  -0.000 neg_r(comedi)==0.0 and label is 0
+  -0.000 neg_r(wait)==0.6000000000000001 and label is 4
+  -0.000 neg_l(sorri)==0.6000000000000001 and label is 4
+  -0.000 has(cramp)==1 and label is 4
+  -0.000 neg_l(anoth)==0.6000000000000001 and label is 4
+  -0.000 neg_l(miss)==0.10000000000000014 and label is 4
+  -0.000 neg_r(hurt)==0.8 and label is 4
+  -0.000 has(upset)==1 and label is 4
+  -0.000 neg_r(depress)==0.0 and label is 4
+  -0.000 neg_l(throat)==0.0 and label is 4
+None
+######################
+Accuracy : 0.76385
+Confusion Matrix 
+  |    0    4 |
+--+-----------+
+0 |<7669>2293 |
+4 | 2430<7608>|
+--+-----------+
+(row = reference; col = test)
+
+length of train tweets 80000
+length of test tweets 20000
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.500
+             2          -0.69312        0.829
+             3          -0.69309        0.829
+             4          -0.69305        0.829
+             5          -0.69302        0.829
+             6          -0.69299        0.829
+             7          -0.69296        0.829
+             8          -0.69293        0.829
+             9          -0.69290        0.829
+         Final          -0.69287        0.829
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  0.76915
+######################
+  -0.000 neg_l(happi)==0.9 and label is 4
+  -0.000 neg_r(miser)==0.0 and label is 4
+  -0.000 neg_l(depress)==0.0 and label is 4
+  -0.000 neg_r(__hash_followfriday)==0.0 and label is 0
+  -0.000 neg_l(sad)==0.6000000000000001 and label is 4
+  -0.000 has(yuck)==1 and label is 4
+  -0.000 neg_r(yuck)==0.0 and label is 4
+  -0.000 neg_l(yuck)==0.0 and label is 4
+  -0.000 neg_l(cramp)==0.0 and label is 4
+  -0.000 has(cramp)==1 and label is 4
+  -0.000 neg_r(sadli)==0.9 and label is 4
+  -0.000 neg_l(__hash_followfriday)==0.0 and label is 0
+  -0.000 neg_r(cramp)==0.0 and label is 4
+  -0.000 neg_l(sad)==0.5000000000000001 and label is 4
+  -0.000 neg_l(forward)==0.8 and label is 4
+  -0.000 neg_r(link)==0.9 and label is 4
+  -0.000 has(__hash_followfriday)==1 and label is 0
+  -0.000 has(funer)==1 and label is 4
+  -0.000 neg_l(sad)==0.7000000000000001 and label is 4
+  -0.000 neg_l(funer)==0.0 and label is 4
+  -0.000 neg_l(answer)==0.9 and label is 4
+  -0.000 neg_r(ugh)==0.9 and label is 4
+  -0.000 has(miser)==1 and label is 4
+  -0.000 has(depress)==1 and label is 4
+  -0.000 neg_r(funer)==0.0 and label is 4
+  -0.000 neg_r(sob)==0.0 and label is 4
+  -0.000 neg_l(chang)==0.8 and label is 4
+  -0.000 neg_l(avail)==0.9 and label is 4
+  -0.000 neg_l(miser)==0.0 and label is 4
+  -0.000 has(throat)==1 and label is 4
+  -0.000 has(unfair)==1 and label is 4
+  -0.000 has(__hash_fail)==1 and label is 4
+  -0.000 neg_r(playlist)==0.0 and label is 0
+  -0.000 has(blister)==1 and label is 4
+  -0.000 has(migrain)==1 and label is 4
+  -0.000 neg_r(sad)==0.0 and label is 4
+  -0.000 neg_l(sad)==0.0 and label is 4
+  -0.000 has(unhappi)==1 and label is 4
+  -0.000 neg_r(__hash_fail)==0.0 and label is 4
+  -0.000 neg_l(3g)==0.0 and label is 4
+  -0.000 has(3g)==1 and label is 4
+  -0.000 neg_l(blister)==0.0 and label is 4
+  -0.000 neg_r(blister)==0.0 and label is 4
+  -0.000 neg_l(night)==0.30000000000000016 and label is 4
+  -0.000 neg_r(suck)==0.7000000000000001 and label is 4
+  -0.000 neg_l(hour)==0.6000000000000001 and label is 4
+  -0.000 neg_l(move)==0.9 and label is 4
+  -0.000 has(sad)==1 and label is 4
+  -0.000 neg_l(infect)==0.0 and label is 4
+  -0.000 neg_l(throat)==0.0 and label is 4
+  -0.000 neg_r(depress)==0.0 and label is 4
+  -0.000 neg_l(upset)==0.0 and label is 4
+  -0.000 neg_l(__hash_fail)==0.0 and label is 4
+  -0.000 neg_r(unfair)==0.0 and label is 4
+  -0.000 neg_r(man)==0.9 and label is 4
+  -0.000 neg_l(accent)==0.0 and label is 0
+  -0.000 neg_r(wish)==0.7000000000000001 and label is 4
+  -0.000 neg_l(migrain)==0.0 and label is 4
+  -0.000 neg_r(miss)==0.40000000000000013 and label is 4
+  -0.000 neg_r(still)==0.8 and label is 4
+  -0.000 neg_r(throat)==0.0 and label is 4
+  -0.000 neg_r(confid)==0.0 and label is 0
+  -0.000 neg_l(cool)==0.9 and label is 4
+  -0.000 has(handsom)==1 and label is 0
+  -0.000 neg_l(unfair)==0.0 and label is 4
+  -0.000 has(unabl)==1 and label is 4
+  -0.000 neg_r(humor)==0.0 and label is 0
+  -0.000 has(humor)==1 and label is 0
+  -0.000 neg_l(whi)==0.7000000000000001 and label is 4
+  -0.000 neg_r(wait)==0.6000000000000001 and label is 4
+  -0.000 neg_r(tri)==0.30000000000000016 and label is 4
+  -0.000 neg_r(yet)==0.9 and label is 4
+  -0.000 has(sadli)==1 and label is 4
+  -0.000 neg_r(migrain)==0.0 and label is 4
+  -0.000 neg_r(reliev)==0.0 and label is 0
+  -0.000 neg_l(stolen)==0.0 and label is 4
+  -0.000 neg_l(tonight)==0.8 and label is 4
+  -0.000 neg_l(maam)==0.0 and label is 0
+  -0.000 neg_r(would)==0.8 and label is 4
+  -0.000 neg_r(unabl)==0.0 and label is 4
+  -0.000 neg_l(phone)==0.7000000000000001 and label is 4
+  -0.000 neg_l(humor)==0.0 and label is 0
+  -0.000 neg_r(hour)==0.8 and label is 4
+  -0.000 neg_l(miss)==0.10000000000000014 and label is 4
+  -0.000 neg_l(hous)==0.6000000000000001 and label is 4
+  -0.000 neg_r(hour)==0.6000000000000001 and label is 4
+  -0.000 neg_l(disappoint)==0.0 and label is 4
+  -0.000 neg_l(sadli)==0.0 and label is 4
+  -0.000 neg_l(congratul)==0.0 and label is 0
+  -0.000 has(archuleta)==1 and label is 0
+  -0.000 neg_r(3g)==0.0 and label is 4
+  -0.000 neg_l(handsom)==0.0 and label is 0
+  -0.000 neg_l(headach)==0.0 and label is 4
+  -0.000 neg_l(unabl)==0.0 and label is 4
+  -0.000 has(uggh)==1 and label is 4
+  -0.000 neg_l(today)==0.9 and label is 4
+  -0.000 neg_l(sell)==0.9 and label is 4
+  -0.000 has(sinu)==1 and label is 4
+  -0.000 neg_r(tire)==0.8 and label is 4
+  -0.000 neg_r(ugh)==0.7000000000000001 and label is 4
+None
+######################
+Accuracy : 0.76915
+Confusion Matrix 
+  |    0    4 |
+--+-----------+
+0 |<7680>2247 |
+4 | 2370<7703>|
+--+-----------+
+(row = reference; col = test)
+
+length of train tweets 80000
+length of test tweets 20000
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.502
+             2          -0.69312        0.830
+             3          -0.69309        0.830
+             4          -0.69305        0.830
+             5          -0.69302        0.830
+             6          -0.69299        0.830
+             7          -0.69296        0.830
+             8          -0.69293        0.830
+             9          -0.69290        0.830
+         Final          -0.69287        0.830
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  0.7672
+######################
+  -0.000 neg_l(happi)==0.9 and label is 4
+  -0.000 neg_r(miser)==0.0 and label is 4
+  -0.000 has(urgh)==1 and label is 4
+  -0.000 neg_l(urgh)==0.0 and label is 4
+  -0.000 neg_r(urgh)==0.0 and label is 4
+  -0.000 neg_l(__hash_followfriday)==0.0 and label is 0
+  -0.000 neg_r(__hash_followfriday)==0.0 and label is 0
+  -0.000 has(cramp)==1 and label is 4
+  -0.000 neg_l(forward)==0.8 and label is 4
+  -0.000 has(3g)==1 and label is 4
+  -0.000 neg_l(funer)==0.0 and label is 4
+  -0.000 has(funer)==1 and label is 4
+  -0.000 neg_l(3g)==0.0 and label is 4
+  -0.000 has(blister)==1 and label is 4
+  -0.000 neg_r(cramp)==0.0 and label is 4
+  -0.000 neg_l(cramp)==0.0 and label is 4
+  -0.000 neg_l(move)==0.9 and label is 4
+  -0.000 has(poorli)==1 and label is 4
+  -0.000 neg_l(blister)==0.0 and label is 4
+  -0.000 neg_r(blister)==0.0 and label is 4
+  -0.000 neg_r(sad)==0.7000000000000001 and label is 4
+  -0.000 has(__hash_followfriday)==1 and label is 0
+  -0.000 neg_r(link)==0.9 and label is 4
+  -0.000 neg_l(poorli)==0.0 and label is 4
+  -0.000 neg_r(funer)==0.0 and label is 4
+  -0.000 neg_l(bugger)==0.0 and label is 4
+  -0.000 neg_r(soo)==0.9 and label is 4
+  -0.000 neg_l(leav)==0.8 and label is 4
+  -0.000 neg_l(promo)==0.0 and label is 0
+  -0.000 has(stolen)==1 and label is 4
+  -0.000 neg_l(avail)==0.9 and label is 4
+  -0.000 has(arghh)==1 and label is 4
+  -0.000 neg_l(sad)==0.7000000000000001 and label is 4
+  -0.000 neg_r(sad)==0.9 and label is 4
+  -0.000 has(miser)==1 and label is 4
+  -0.000 neg_l(infect)==0.0 and label is 4
+  -0.000 has(migrain)==1 and label is 4
+  -0.000 neg_l(abl)==0.8 and label is 4
+  -0.000 neg_l(headach)==0.0 and label is 4
+  -0.000 neg_l(phone)==0.7000000000000001 and label is 4
+  -0.000 neg_l(arghh)==0.0 and label is 4
+  -0.000 neg_r(mine)==0.9 and label is 4
+  -0.000 neg_r(bad)==0.9 and label is 4
+  -0.000 neg_l(afford)==0.9 and label is 4
+  -0.000 neg_r(out)==1.3877787807814457e-16 and label is 4
+  -0.000 neg_r(bad)==0.6000000000000001 and label is 4
+  -0.000 neg_l(miser)==0.0 and label is 4
+  -0.000 neg_l(depress)==0.0 and label is 4
+  -0.000 neg_l(duh)==0.0 and label is 0
+  -0.000 has(unhappi)==1 and label is 4
+  -0.000 neg_r(be)==0.7000000000000001 and label is 4
+  -0.000 neg_l(stolen)==0.0 and label is 4
+  -0.000 neg_r(stolen)==0.0 and label is 4
+  -0.000 neg_r(would)==0.8 and label is 4
+  -0.000 neg_r(playlist)==0.0 and label is 0
+  -0.000 neg_l(migrain)==0.0 and label is 4
+  -0.000 neg_l(sad)==0.0 and label is 4
+  -0.000 neg_r(3g)==0.0 and label is 4
+  -0.000 neg_r(ouchi)==0.0 and label is 4
+  -0.000 has(unabl)==1 and label is 4
+  -0.000 neg_r(dad)==0.9 and label is 4
+  -0.000 neg_l(mood)==0.8 and label is 4
+  -0.000 neg_l(chang)==0.8 and label is 4
+  -0.000 neg_l(feel)==0.40000000000000013 and label is 4
+  -0.000 neg_l(atlant)==0.0 and label is 4
+  -0.000 has(atlant)==1 and label is 4
+  -0.000 neg_r(iphon)==0.8 and label is 4
+  -0.000 has(sinu)==1 and label is 4
+  -0.000 neg_r(still)==0.8 and label is 4
+  -0.000 has(sad)==1 and label is 4
+  -0.000 neg_r(sad)==0.0 and label is 4
+  -0.000 has(headach)==1 and label is 4
+  -0.000 neg_r(sri)==0.0 and label is 4
+  -0.000 neg_l(maam)==0.0 and label is 0
+  -0.000 neg_l(zac)==0.0 and label is 0
+  -0.000 has(zac)==1 and label is 0
+  -0.000 neg_l(fun)==0.9 and label is 4
+  -0.000 neg_r(unabl)==0.0 and label is 4
+  -0.000 has(shatter)==1 and label is 4
+  -0.000 neg_l(sorri)==0.6000000000000001 and label is 4
+  -0.000 has(vomit)==1 and label is 4
+  -0.000 neg_l(miss)==0.5000000000000001 and label is 4
+  -0.000 neg_r(arghh)==0.0 and label is 4
+  -0.000 has(hayfev)==1 and label is 4
+  -0.000 neg_l(miss)==0.10000000000000014 and label is 4
+  -0.000 neg_r(miss)==0.40000000000000013 and label is 4
+  -0.000 neg_r(sinu)==0.0 and label is 4
+  -0.000 neg_l(sinu)==0.0 and label is 4
+  -0.000 has(throat)==1 and label is 4
+  -0.000 neg_r(headach)==0.0 and label is 4
+  -0.000 has(depress)==1 and label is 4
+  -0.000 neg_r(tri)==0.5000000000000001 and label is 4
+  -0.000 neg_r(want)==0.40000000000000013 and label is 4
+  -0.000 neg_l(upset)==0.0 and label is 4
+  -0.000 has(confid)==1 and label is 0
+  -0.000 neg_l(patienc)==0.0 and label is 0
+  -0.000 neg_l(unabl)==0.0 and label is 4
+  -0.000 neg_l(shatter)==0.0 and label is 4
+  -0.000 neg_r(shatter)==0.0 and label is 4
+  -0.000 neg_r(hola)==0.0 and label is 0
+None
+######################
+Accuracy : 0.7672
+Confusion Matrix 
+  |    0    4 |
+--+-----------+
+0 |<7768>2287 |
+4 | 2369<7576>|
+--+-----------+
+(row = reference; col = test)
+
+length of train tweets 80000
+length of test tweets 20000
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.500
+             2          -0.69312        0.828
+             3          -0.69309        0.828
+             4          -0.69305        0.828
+             5          -0.69302        0.828
+             6          -0.69299        0.828
+             7          -0.69296        0.828
+             8          -0.69293        0.828
+             9          -0.69290        0.828
+         Final          -0.69287        0.828
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  0.77015
+######################
+  -0.000 neg_l(happi)==0.9 and label is 4
+  -0.000 neg_l(cool)==0.9 and label is 4
+  -0.000 neg_l(forward)==0.8 and label is 4
+  -0.000 has(urgh)==1 and label is 4
+  -0.000 neg_l(urgh)==0.0 and label is 4
+  -0.000 neg_l(sad)==0.6000000000000001 and label is 4
+  -0.000 neg_r(urgh)==0.0 and label is 4
+  -0.000 neg_l(depress)==0.0 and label is 4
+  -0.000 has(funer)==1 and label is 4
+  -0.000 neg_r(funer)==0.0 and label is 4
+  -0.000 neg_l(funer)==0.0 and label is 4
+  -0.000 has(unfair)==1 and label is 4
+  -0.000 neg_l(nice)==0.9 and label is 4
+  -0.000 has(stolen)==1 and label is 4
+  -0.000 neg_l(home)==0.7000000000000001 and label is 4
+  -0.000 has(depress)==1 and label is 4
+  -0.000 neg_l(unfair)==0.0 and label is 4
+  -0.000 neg_l(infect)==0.0 and label is 4
+  -0.000 neg_r(sadli)==0.9 and label is 4
+  -0.000 neg_l(__hash_followfriday)==0.0 and label is 0
+  -0.000 neg_r(unfair)==0.0 and label is 4
+  -0.000 has(3g)==1 and label is 4
+  -0.000 has(ouch)==1 and label is 4
+  -0.000 neg_r(blister)==0.0 and label is 4
+  -0.000 has(blister)==1 and label is 4
+  -0.000 neg_l(abl)==0.8 and label is 4
+  -0.000 neg_r(stolen)==0.0 and label is 4
+  -0.000 neg_l(3g)==0.0 and label is 4
+  -0.000 neg_l(ouch)==0.0 and label is 4
+  -0.000 neg_l(fun)==0.8 and label is 4
+  -0.000 neg_l(blister)==0.0 and label is 4
+  -0.000 neg_l(sad)==0.5000000000000001 and label is 4
+  -0.000 neg_r(depress)==0.0 and label is 4
+  -0.000 neg_r(man)==0.9 and label is 4
+  -0.000 neg_l(chang)==0.8 and label is 4
+  -0.000 neg_r(ugh)==0.9 and label is 4
+  -0.000 neg_l(whi)==0.7000000000000001 and label is 4
+  -0.000 neg_r(suck)==0.7000000000000001 and label is 4
+  -0.000 neg_l(asleep)==0.8 and label is 4
+  -0.000 neg_r(__hash_followfriday)==0.0 and label is 0
+  -0.000 neg_r(ouch)==0.0 and label is 4
+  -0.000 neg_r(vip)==0.0 and label is 0
+  -0.000 has(throat)==1 and label is 4
+  -0.000 neg_r(sad)==0.0 and label is 4
+  -0.000 neg_l(disappoint)==0.0 and label is 4
+  -0.000 neg_r(realli)==0.30000000000000016 and label is 4
+  -0.000 neg_l(sad)==0.0 and label is 4
+  -0.000 neg_l(duh)==0.0 and label is 0
+  -0.000 has(shatter)==1 and label is 4
+  -0.000 neg_r(miser)==0.0 and label is 4
+  -0.000 neg_l(playlist)==0.0 and label is 0
+  -0.000 has(playlist)==1 and label is 0
+  -0.000 neg_l(right)==0.9 and label is 4
+  -0.000 neg_l(batteri)==0.0 and label is 4
+  -0.000 neg_r(home)==0.9 and label is 4
+  -0.000 neg_r(hour)==0.8 and label is 4
+  -0.000 neg_r(home)==0.8 and label is 4
+  -0.000 has(__hash_followfriday)==1 and label is 0
+  -0.000 has(sad)==1 and label is 4
+  -0.000 neg_l(throat)==0.0 and label is 4
+  -0.000 has(handsom)==1 and label is 0
+  -0.000 neg_r(3g)==0.0 and label is 4
+  -0.000 neg_r(shatter)==0.0 and label is 4
+  -0.000 has(unabl)==1 and label is 4
+  -0.000 neg_r(suck)==0.9 and label is 4
+  -0.000 neg_l(hugh)==0.0 and label is 0
+  -0.000 neg_l(till)==0.7000000000000001 and label is 4
+  -0.000 neg_r(hate)==0.5000000000000001 and label is 4
+  -0.000 neg_r(miss)==0.40000000000000013 and label is 4
+  -0.000 neg_r(wish)==0.10000000000000014 and label is 4
+  -0.000 neg_r(hate)==0.9 and label is 4
+  -0.000 neg_r(throat)==0.0 and label is 4
+  -0.000 neg_l(headach)==0.0 and label is 4
+  -0.000 neg_r(want)==0.40000000000000013 and label is 4
+  -0.000 neg_r(becaus)==0.9 and label is 4
+  -0.000 neg_l(upset)==0.0 and label is 4
+  -0.000 neg_l(vip)==0.0 and label is 0
+  -0.000 neg_l(burnt)==0.0 and label is 4
+  -0.000 neg_l(shatter)==0.0 and label is 4
+  -0.000 has(vomit)==1 and label is 4
+  -0.000 neg_l(avail)==0.9 and label is 4
+  -0.000 has(bruis)==1 and label is 4
+  -0.000 neg_r(unabl)==0.0 and label is 4
+  -0.000 neg_l(year)==0.40000000000000013 and label is 4
+  -0.000 neg_l(updat)==0.8 and label is 4
+  -0.000 neg_l(wanna)==0.8 and label is 4
+  -0.000 neg_r(hate)==0.7000000000000001 and label is 4
+  -0.000 neg_l(suffer)==0.0 and label is 4
+  -0.000 neg_r(suffer)==0.0 and label is 4
+  -0.000 neg_l(leav)==0.8 and label is 4
+  -0.000 neg_r(headach)==0.0 and label is 4
+  -0.000 has(batteri)==1 and label is 4
+  -0.000 has(ttyl)==1 and label is 0
+  -0.000 neg_r(coulda)==0.0 and label is 4
+  -0.000 has(coulda)==1 and label is 4
+  -0.000 neg_l(handsom)==0.0 and label is 0
+  -0.000 neg_r(vomit)==0.0 and label is 4
+  -0.000 has(wreck)==1 and label is 4
+  -0.000 neg_r(burnt)==0.0 and label is 4
+  -0.000 has(icki)==1 and label is 4
+None
+######################
+Accuracy : 0.77015
+Confusion Matrix 
+  |    0    4 |
+--+-----------+
+0 |<7664>2249 |
+4 | 2348<7739>|
+--+-----------+
+(row = reference; col = test)
+
+length of train tweets 80000
+length of test tweets 20000
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.502
+             2          -0.69312        0.829
+             3          -0.69309        0.829
+             4          -0.69305        0.829
+             5          -0.69302        0.829
+             6          -0.69299        0.829
+             7          -0.69296        0.829
+             8          -0.69293        0.829
+             9          -0.69290        0.829
+         Final          -0.69287        0.829
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  0.77185
+######################
+  -0.000 neg_l(happi)==0.9 and label is 4
+  -0.000 neg_l(forward)==0.8 and label is 4
+  -0.000 has(urgh)==1 and label is 4
+  -0.000 neg_l(urgh)==0.0 and label is 4
+  -0.000 neg_r(urgh)==0.0 and label is 4
+  -0.000 neg_l(nice)==0.9 and label is 4
+  -0.000 neg_r(hayfev)==0.0 and label is 4
+  -0.000 neg_l(fun)==0.9 and label is 4
+  -0.000 neg_l(sad)==0.6000000000000001 and label is 4
+  -0.000 neg_l(sad)==0.5000000000000001 and label is 4
+  -0.000 neg_r(link)==0.9 and label is 4
+  -0.000 neg_l(tonight)==0.8 and label is 4
+  -0.000 neg_l(swollen)==0.0 and label is 4
+  -0.000 has(unfair)==1 and label is 4
+  -0.000 neg_r(sad)==0.7000000000000001 and label is 4
+  -0.000 neg_l(infect)==0.0 and label is 4
+  -0.000 neg_r(unfair)==0.0 and label is 4
+  -0.000 neg_r(playlist)==0.0 and label is 0
+  -0.000 neg_r(ankl)==0.0 and label is 4
+  -0.000 neg_l(__hash_followfriday)==0.0 and label is 0
+  -0.000 has(funer)==1 and label is 4
+  -0.000 neg_l(accent)==0.0 and label is 0
+  -0.000 neg_r(iphon)==0.8 and label is 4
+  -0.000 has(migrain)==1 and label is 4
+  -0.000 neg_r(__hash_followfriday)==0.0 and label is 0
+  -0.000 neg_r(sadli)==0.9 and label is 4
+  -0.000 neg_l(abl)==0.8 and label is 4
+  -0.000 neg_r(funer)==0.0 and label is 4
+  -0.000 neg_l(funer)==0.0 and label is 4
+  -0.000 neg_l(unfair)==0.0 and label is 4
+  -0.000 has(shatter)==1 and label is 4
+  -0.000 has(blister)==1 and label is 4
+  -0.000 neg_l(__hash_musicmonday)==0.0 and label is 0
+  -0.000 neg_r(__hash_musicmonday)==0.0 and label is 0
+  -0.000 has(__hash_musicmonday)==1 and label is 0
+  -0.000 neg_l(sad)==0.7000000000000001 and label is 4
+  -0.000 has(arghh)==1 and label is 4
+  -0.000 neg_l(move)==0.9 and label is 4
+  -0.000 neg_l(stolen)==0.0 and label is 4
+  -0.000 neg_r(bed)==0.9 and label is 4
+  -0.000 neg_r(shatter)==0.0 and label is 4
+  -0.000 neg_l(blister)==0.0 and label is 4
+  -0.000 neg_r(blister)==0.0 and label is 4
+  -0.000 neg_l(migrain)==0.0 and label is 4
+  -0.000 neg_l(long)==0.5000000000000001 and label is 4
+  -0.000 neg_r(ugh)==0.9 and label is 4
+  -0.000 neg_l(arghh)==0.0 and label is 4
+  -0.000 neg_l(sad)==0.0 and label is 4
+  -0.000 neg_l(depress)==0.0 and label is 4
+  -0.000 neg_r(sad)==0.0 and label is 4
+  -0.000 has(ttyl)==1 and label is 0
+  -0.000 neg_l(shatter)==0.0 and label is 4
+  -0.000 neg_l(miss)==0.30000000000000016 and label is 4
+  -0.000 neg_r(sad)==0.9 and label is 4
+  -0.000 has(sad)==1 and label is 4
+  -0.000 neg_l(ttyl)==0.0 and label is 0
+  -0.000 neg_l(useless)==0.0 and label is 4
+  -0.000 neg_r(ttyl)==0.0 and label is 0
+  -0.000 neg_r(humor)==0.0 and label is 0
+  -0.000 has(humor)==1 and label is 0
+  -0.000 neg_r(arghh)==0.0 and label is 4
+  -0.000 has(throat)==1 and label is 4
+  -0.000 has(__hash_followfriday)==1 and label is 0
+  -0.000 neg_r(migrain)==0.0 and label is 4
+  -0.000 neg_r(miser)==0.0 and label is 4
+  -0.000 has(unhappi)==1 and label is 4
+  -0.000 neg_r(reliev)==0.0 and label is 0
+  -0.000 neg_r(helloo)==0.0 and label is 0
+  -0.000 neg_r(would)==0.8 and label is 4
+  -0.000 has(depress)==1 and label is 4
+  -0.000 has(archuleta)==1 and label is 0
+  -0.000 neg_r(man)==0.9 and label is 4
+  -0.000 neg_l(updat)==0.9 and label is 4
+  -0.000 has(__hash_fail)==1 and label is 4
+  -0.000 neg_l(sorri)==0.6000000000000001 and label is 4
+  -0.000 neg_l(wanna)==0.8 and label is 4
+  -0.000 neg_l(whi)==0.7000000000000001 and label is 4
+  -0.000 has(sinu)==1 and label is 4
+  -0.000 neg_l(cool)==0.9 and label is 4
+  -0.000 neg_r(tire)==0.8 and label is 4
+  -0.000 neg_l(allow)==0.9 and label is 4
+  -0.000 neg_l(throat)==0.0 and label is 4
+  -0.000 neg_l(nice)==0.8 and label is 4
+  -0.000 neg_l(pathet)==0.0 and label is 4
+  -0.000 has(coulda)==1 and label is 4
+  -0.000 neg_r(archuleta)==0.0 and label is 0
+  -0.000 has(uggh)==1 and label is 4
+  -0.000 neg_r(dad)==0.9 and label is 4
+  -0.000 neg_r(__hash_fail)==0.0 and label is 4
+  -0.000 has(bruis)==1 and label is 4
+  -0.000 has(icki)==1 and label is 4
+  -0.000 neg_r(wish)==0.7000000000000001 and label is 4
+  -0.000 neg_r(want)==0.40000000000000013 and label is 4
+  -0.000 neg_r(suck)==0.7000000000000001 and label is 4
+  -0.000 neg_l(humor)==0.0 and label is 0
+  -0.000 neg_r(sinu)==0.0 and label is 4
+  -0.000 neg_l(sinu)==0.0 and label is 4
+  -0.000 neg_r(left)==0.6000000000000001 and label is 4
+  -0.000 neg_r(throat)==0.0 and label is 4
+  -0.000 has(ouch)==1 and label is 4
+None
+######################
+Accuracy : 0.77185
+Confusion Matrix 
+  |    0    4 |
+--+-----------+
+0 |<7701>2329 |
+4 | 2234<7736>|
+--+-----------+
+(row = reference; col = test)
+
+Accuracies: [0.76385, 0.76915, 0.7672, 0.77015, 0.77185]
+Average Accuracy: 0.76844

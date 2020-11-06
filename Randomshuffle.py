@@ -1,0 +1,11 @@
+import random
+fid = open("/Users/bhogirala/PycharmProjects/mlws/senti/data/preprocessed_tweets.csv", "r")
+li = fid.readlines()
+fid.close()
+print(li[:5])
+print("shuffling")
+random.shuffle(li)
+fid1 = open("/Users/bhogirala/PycharmProjects/mlws/Sentimeter/data/preprocessed_tweets_shuffled.csv", "w")
+fid1.writelines(li)
+fid1.close()
+print("shuffled")

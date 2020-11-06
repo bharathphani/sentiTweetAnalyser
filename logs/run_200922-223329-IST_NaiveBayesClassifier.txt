@@ -1,0 +1,581 @@
+NaiveBayesClassifier_1step_ngram1_negtnFalse
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  0.775825
+######################
+Most Informative Features
+         has(tweeteradd) = 1                   4 : 0      =    503.7 : 1.0
+       neg_l(tweeteradd) = 0.0                 4 : 0      =    503.7 : 1.0
+       neg_r(tweeteradd) = 0.0                 4 : 0      =    503.7 : 1.0
+           neg_l(sadfac) = 0.0                 0 : 4      =     71.7 : 1.0
+             has(hurtss) = 1                   0 : 4      =     64.3 : 1.0
+              neg_r(jog) = 0.9                 0 : 4      =     63.0 : 1.0
+           neg_r(hurtss) = 0.0                 0 : 4      =     62.3 : 1.0
+           neg_l(hurtss) = 0.0                 0 : 4      =     61.0 : 1.0
+            neg_l(fever) = 0.30000000000000016      0 : 4      =     55.0 : 1.0
+                has(owi) = 1                   0 : 4      =     52.3 : 1.0
+             has(sadfac) = 1                   0 : 4      =     52.2 : 1.0
+           has(dividend) = 1                   4 : 0      =     51.0 : 1.0
+         neg_l(dividend) = 0.0                 4 : 0      =     51.0 : 1.0
+         neg_r(dividend) = 0.0                 4 : 0      =     50.3 : 1.0
+           neg_r(sadfac) = 0.0                 0 : 4      =     49.8 : 1.0
+              neg_r(owi) = 0.0                 0 : 4      =     49.7 : 1.0
+          has(timestamp) = 1                   4 : 0      =     42.3 : 1.0
+        neg_l(timestamp) = 0.0                 4 : 0      =     42.3 : 1.0
+           neg_l(farrah) = 0.0                 0 : 4      =     39.9 : 1.0
+             neg_l(sadd) = 0.0                 0 : 4      =     39.5 : 1.0
+               has(sadd) = 1                   0 : 4      =     39.0 : 1.0
+             has(farrah) = 1                   0 : 4      =     37.9 : 1.0
+            has(fuzzbal) = 1                   4 : 0      =     36.2 : 1.0
+           neg_r(farrah) = 0.0                 0 : 4      =     36.2 : 1.0
+          neg_r(fuzzbal) = 0.0                 4 : 0      =     36.2 : 1.0
+             neg_r(sadd) = 0.0                 0 : 4      =     35.9 : 1.0
+           neg_l(camper) = 0.8                 0 : 4      =     35.7 : 1.0
+             neg_l(poor) = 0.20000000000000015      0 : 4      =     34.3 : 1.0
+           neg_l(sadden) = 0.0                 0 : 4      =     34.1 : 1.0
+             neg_l(hurt) = 1.3877787807814457e-16      0 : 4      =     33.7 : 1.0
+            neg_l(demon) = 0.5000000000000001      0 : 4      =     33.4 : 1.0
+              neg_l(sad) = 0.6000000000000001      0 : 4      =     32.7 : 1.0
+          neg_r(mcmahon) = 0.0                 0 : 4      =     32.5 : 1.0
+         neg_l(feverish) = 0.0                 0 : 4      =     32.3 : 1.0
+           neg_r(boohoo) = 0.0                 0 : 4      =     31.9 : 1.0
+           neg_r(sadden) = 0.0                 0 : 4      =     31.2 : 1.0
+               has(ceci) = 1                   0 : 4      =     31.0 : 1.0
+          neg_l(command) = 0.6000000000000001      0 : 4      =     31.0 : 1.0
+             has(sadden) = 1                   0 : 4      =     30.7 : 1.0
+                has(447) = 1                   0 : 4      =     30.3 : 1.0
+         has(__hash_tag) = 1                   0 : 4      =     30.3 : 1.0
+           neg_l(cooper) = 0.9                 0 : 4      =     30.3 : 1.0
+       neg_r(__hash_tag) = 0.0                 0 : 4      =     30.3 : 1.0
+          has(sharehold) = 1                   4 : 0      =     30.2 : 1.0
+        neg_l(sharehold) = 0.0                 4 : 0      =     30.2 : 1.0
+        neg_r(sharehold) = 0.0                 4 : 0      =     29.8 : 1.0
+              neg_l(447) = 0.0                 0 : 4      =     29.2 : 1.0
+              neg_l(sad) = 0.5000000000000001      0 : 4      =     29.2 : 1.0
+             has(boohoo) = 1                   0 : 4      =     29.0 : 1.0
+              neg_r(447) = 0.0                 0 : 4      =     29.0 : 1.0
+             neg_r(ceci) = 0.0                 0 : 4      =     29.0 : 1.0
+            neg_r(sadli) = 0.6000000000000001      0 : 4      =     29.0 : 1.0
+            has(mcmahon) = 1                   0 : 4      =     28.7 : 1.0
+             neg_r(saad) = 0.0                 0 : 4      =     28.4 : 1.0
+           has(trackbal) = 1                   0 : 4      =     28.3 : 1.0
+           neg_l(boohoo) = 0.0                 0 : 4      =     27.9 : 1.0
+              neg_l(sad) = 0.30000000000000016      0 : 4      =     27.9 : 1.0
+                has(228) = 1                   0 : 4      =     27.8 : 1.0
+                has(hcc) = 1                   4 : 0      =     27.7 : 1.0
+             neg_l(elig) = 0.9                 0 : 4      =     27.7 : 1.0
+              neg_l(hcc) = 0.0                 4 : 0      =     27.7 : 1.0
+              neg_r(hcc) = 0.0                 4 : 0      =     27.7 : 1.0
+         neg_r(ligament) = 0.0                 0 : 4      =     27.7 : 1.0
+              neg_r(sad) = 0.20000000000000015      0 : 4      =     27.7 : 1.0
+          neg_l(mcmahon) = 0.0                 0 : 4      =     27.5 : 1.0
+            neg_l(atcha) = 0.0                 4 : 0      =     27.4 : 1.0
+       neg_l(__emot_cri) = 0.7000000000000001      0 : 4      =     27.0 : 1.0
+             neg_l(ceci) = 0.0                 0 : 4      =     27.0 : 1.0
+          neg_l(fuzzbal) = 0.0                 4 : 0      =     27.0 : 1.0
+              neg_l(sad) = 0.10000000000000014      0 : 4      =     26.8 : 1.0
+           neg_r(bloodi) = 0.8                 0 : 4      =     26.3 : 1.0
+           neg_r(hospit) = 0.8                 0 : 4      =     26.3 : 1.0
+              neg_r(228) = 0.0                 0 : 4      =     26.2 : 1.0
+              neg_l(228) = 0.0                 0 : 4      =     25.8 : 1.0
+              neg_l(boo) = 0.40000000000000013      0 : 4      =     25.3 : 1.0
+         neg_l(carradin) = 0.0                 0 : 4      =     25.1 : 1.0
+          has(__hash_ac) = 1                   0 : 4      =     25.0 : 1.0
+            has(backach) = 1                   0 : 4      =     25.0 : 1.0
+           neg_l(doctor) = 0.7000000000000001      0 : 4      =     25.0 : 1.0
+             neg_l(saad) = 0.0                 0 : 4      =     25.0 : 1.0
+         neg_l(trackbal) = 0.0                 0 : 4      =     25.0 : 1.0
+        neg_r(__hash_ac) = 0.0                 0 : 4      =     25.0 : 1.0
+              neg_l(sad) = 0.40000000000000013      0 : 4      =     24.6 : 1.0
+          neg_l(stomach) = 0.6000000000000001      0 : 4      =     24.3 : 1.0
+          neg_r(merrier) = 0.0                 4 : 0      =     24.3 : 1.0
+           neg_r(arrghh) = 0.0                 0 : 4      =     24.3 : 1.0
+      neg_l(heartbroken) = 0.0                 0 : 4      =     23.9 : 1.0
+has(__hash_noundiessunday) = 1                   4 : 0      =     23.7 : 1.0
+               has(saad) = 1                   0 : 4      =     23.7 : 1.0
+             neg_l(sore) = 0.40000000000000013      0 : 4      =     23.7 : 1.0
+neg_r(__hash_noundiessunday) = 0.0                 4 : 0      =     23.7 : 1.0
+      neg_r(heartbroken) = 0.0                 0 : 4      =     23.7 : 1.0
+          neg_l(backach) = 0.0                 0 : 4      =     23.7 : 1.0
+       has(__hash_annoy) = 1                   4 : 0      =     23.0 : 1.0
+             has(smilin) = 1                   4 : 0      =     23.0 : 1.0
+     neg_l(__hash_annoy) = 0.0                 4 : 0      =     23.0 : 1.0
+          neg_l(charger) = 0.7000000000000001      0 : 4      =     23.0 : 1.0
+           neg_l(smilin) = 0.0                 4 : 0      =     23.0 : 1.0
+           neg_l(throat) = 0.7000000000000001      0 : 4      =     23.0 : 1.0
+     neg_r(__hash_annoy) = 0.0                 4 : 0      =     23.0 : 1.0
+None
+######################
+Accuracy : 0.775825
+Confusion Matrix 
+  |     0     4 |
+--+-------------+
+0 |<62484>17516 |
+4 | 18352<61648>|
+--+-------------+
+(row = reference; col = test)
+
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  0.7792125
+######################
+Most Informative Features
+         has(tweeteradd) = 1                   4 : 0      =    497.7 : 1.0
+       neg_l(tweeteradd) = 0.0                 4 : 0      =    497.7 : 1.0
+       neg_r(tweeteradd) = 0.0                 4 : 0      =    497.7 : 1.0
+           neg_l(sadfac) = 0.0                 0 : 4      =     65.7 : 1.0
+              neg_r(jog) = 0.9                 0 : 4      =     62.3 : 1.0
+             has(hurtss) = 1                   0 : 4      =     61.0 : 1.0
+           neg_r(hurtss) = 0.0                 0 : 4      =     59.7 : 1.0
+           neg_l(hurtss) = 0.0                 0 : 4      =     57.0 : 1.0
+           has(dividend) = 1                   4 : 0      =     53.0 : 1.0
+         neg_l(dividend) = 0.0                 4 : 0      =     53.0 : 1.0
+         neg_r(dividend) = 0.0                 4 : 0      =     52.3 : 1.0
+            neg_l(atcha) = 0.0                 4 : 0      =     50.3 : 1.0
+               has(sadd) = 1                   0 : 4      =     44.5 : 1.0
+           neg_l(farrah) = 0.0                 0 : 4      =     43.8 : 1.0
+             has(farrah) = 1                   0 : 4      =     41.3 : 1.0
+             neg_r(sadd) = 0.0                 0 : 4      =     41.2 : 1.0
+           neg_r(farrah) = 0.0                 0 : 4      =     39.6 : 1.0
+             neg_l(sadd) = 0.0                 0 : 4      =     38.8 : 1.0
+            has(fuzzbal) = 1                   4 : 0      =     37.0 : 1.0
+          neg_r(fuzzbal) = 0.0                 4 : 0      =     37.0 : 1.0
+             neg_l(sell) = 0.20000000000000015      0 : 4      =     36.3 : 1.0
+           neg_l(camper) = 0.8                 0 : 4      =     35.0 : 1.0
+              neg_r(os3) = 0.0                 0 : 4      =     35.0 : 1.0
+           neg_r(sadden) = 0.0                 0 : 4      =     34.7 : 1.0
+              neg_l(boo) = 0.40000000000000013      0 : 4      =     34.6 : 1.0
+             has(sadfac) = 1                   0 : 4      =     33.9 : 1.0
+            neg_l(hurti) = 0.0                 0 : 4      =     33.7 : 1.0
+            neg_r(worst) = 0.6000000000000001      0 : 4      =     33.7 : 1.0
+                has(447) = 1                   0 : 4      =     33.2 : 1.0
+             neg_l(poor) = 0.20000000000000015      0 : 4      =     33.0 : 1.0
+              neg_l(sad) = 0.5000000000000001      0 : 4      =     32.9 : 1.0
+           neg_r(sadfac) = 0.0                 0 : 4      =     32.4 : 1.0
+              neg_r(447) = 0.0                 0 : 4      =     32.3 : 1.0
+          neg_r(horribl) = 0.8                 0 : 4      =     32.3 : 1.0
+              neg_l(447) = 0.0                 0 : 4      =     31.9 : 1.0
+            neg_l(fever) = 0.30000000000000016      0 : 4      =     31.8 : 1.0
+           neg_r(boohoo) = 0.0                 0 : 4      =     31.8 : 1.0
+         neg_l(feverish) = 0.0                 0 : 4      =     31.7 : 1.0
+              has(atcha) = 1                   4 : 0      =     31.4 : 1.0
+          neg_r(mcmahon) = 0.0                 0 : 4      =     31.4 : 1.0
+          neg_l(mcmahon) = 0.0                 0 : 4      =     31.2 : 1.0
+          has(sharehold) = 1                   4 : 0      =     31.0 : 1.0
+             neg_l(ceci) = 0.0                 0 : 4      =     31.0 : 1.0
+        neg_l(sharehold) = 0.0                 4 : 0      =     31.0 : 1.0
+             neg_r(argh) = 0.8                 0 : 4      =     31.0 : 1.0
+            neg_r(atcha) = 0.0                 4 : 0      =     30.6 : 1.0
+        neg_r(sharehold) = 0.0                 4 : 0      =     30.6 : 1.0
+             has(sadden) = 1                   0 : 4      =     30.5 : 1.0
+          neg_l(command) = 0.6000000000000001      0 : 4      =     30.3 : 1.0
+            neg_l(upset) = 0.5000000000000001      0 : 4      =     30.3 : 1.0
+              neg_l(owi) = 0.0                 0 : 4      =     30.2 : 1.0
+           neg_l(sadden) = 0.0                 0 : 4      =     29.9 : 1.0
+         has(__hash_tag) = 1                   0 : 4      =     29.7 : 1.0
+       neg_l(__emot_cri) = 0.7000000000000001      0 : 4      =     29.7 : 1.0
+             neg_l(hurt) = 1.3877787807814457e-16      0 : 4      =     29.7 : 1.0
+       neg_r(__hash_tag) = 0.0                 0 : 4      =     29.7 : 1.0
+             has(boohoo) = 1                   0 : 4      =     29.0 : 1.0
+              neg_l(sad) = 0.6000000000000001      0 : 4      =     29.0 : 1.0
+             neg_r(saad) = 0.0                 0 : 4      =     29.0 : 1.0
+          neg_l(fuzzbal) = 0.0                 4 : 0      =     28.6 : 1.0
+           has(trackbal) = 1                   0 : 4      =     28.3 : 1.0
+           neg_l(boohoo) = 0.0                 0 : 4      =     28.2 : 1.0
+              neg_l(sad) = 0.20000000000000015      0 : 4      =     28.1 : 1.0
+                has(hcc) = 1                   4 : 0      =     27.7 : 1.0
+              has(huurt) = 1                   0 : 4      =     27.7 : 1.0
+              neg_l(hcc) = 0.0                 4 : 0      =     27.7 : 1.0
+              neg_r(hcc) = 0.0                 4 : 0      =     27.7 : 1.0
+            has(mcmahon) = 1                   0 : 4      =     27.6 : 1.0
+            neg_r(upset) = 0.7000000000000001      0 : 4      =     27.3 : 1.0
+      neg_l(heartbroken) = 0.0                 0 : 4      =     27.2 : 1.0
+      neg_r(heartbroken) = 0.0                 0 : 4      =     27.2 : 1.0
+              neg_l(sad) = 0.10000000000000014      0 : 4      =     27.2 : 1.0
+              neg_l(sad) = 0.30000000000000016      0 : 4      =     27.1 : 1.0
+              neg_r(sad) = 0.20000000000000015      0 : 4      =     26.8 : 1.0
+           has(tummyach) = 1                   0 : 4      =     26.3 : 1.0
+          neg_l(connect) = 0.9                 0 : 4      =     26.3 : 1.0
+                has(os3) = 1                   0 : 4      =     26.2 : 1.0
+             neg_l(saad) = 0.0                 0 : 4      =     25.9 : 1.0
+          has(__hash_ac) = 1                   0 : 4      =     25.7 : 1.0
+            neg_l(huurt) = 0.0                 0 : 4      =     25.7 : 1.0
+        neg_r(__hash_ac) = 0.0                 0 : 4      =     25.7 : 1.0
+         neg_r(ligament) = 0.0                 0 : 4      =     25.7 : 1.0
+            neg_r(sadli) = 0.6000000000000001      0 : 4      =     25.7 : 1.0
+            neg_r(huurt) = 0.0                 0 : 4      =     25.0 : 1.0
+              has(aughh) = 1                   0 : 4      =     25.0 : 1.0
+            has(excruci) = 1                   0 : 4      =     25.0 : 1.0
+            neg_l(aughh) = 0.0                 0 : 4      =     25.0 : 1.0
+         neg_l(carradin) = 0.0                 0 : 4      =     25.0 : 1.0
+         neg_l(trackbal) = 0.0                 0 : 4      =     25.0 : 1.0
+            neg_r(aughh) = 0.0                 0 : 4      =     25.0 : 1.0
+         neg_r(tummyach) = 0.0                 0 : 4      =     25.0 : 1.0
+               has(saad) = 1                   0 : 4      =     24.3 : 1.0
+          neg_l(stomach) = 0.6000000000000001      0 : 4      =     23.7 : 1.0
+           neg_l(throat) = 0.7000000000000001      0 : 4      =     23.7 : 1.0
+         neg_l(tummyach) = 0.0                 0 : 4      =     23.7 : 1.0
+            neg_l(demon) = 0.5000000000000001      0 : 4      =     23.6 : 1.0
+              neg_l(sad) = 0.40000000000000013      0 : 4      =     23.2 : 1.0
+        has(heartbroken) = 1                   0 : 4      =     23.0 : 1.0
+                has(owi) = 1                   0 : 4      =     23.0 : 1.0
+          neg_r(headach) = 0.40000000000000013      0 : 4      =     23.0 : 1.0
+None
+######################
+Accuracy : 0.7792125
+Confusion Matrix 
+  |     0     4 |
+--+-------------+
+0 |<62642>17358 |
+4 | 17968<62032>|
+--+-------------+
+(row = reference; col = test)
+
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  0.7764875
+######################
+Most Informative Features
+         has(tweeteradd) = 1                   4 : 0      =    502.3 : 1.0
+       neg_l(tweeteradd) = 0.0                 4 : 0      =    502.3 : 1.0
+       neg_r(tweeteradd) = 0.0                 4 : 0      =    502.3 : 1.0
+           neg_l(sadfac) = 0.0                 0 : 4      =     69.0 : 1.0
+             has(hurtss) = 1                   0 : 4      =     59.7 : 1.0
+           neg_r(hurtss) = 0.0                 0 : 4      =     57.7 : 1.0
+           neg_l(hurtss) = 0.0                 0 : 4      =     55.7 : 1.0
+            neg_l(fever) = 0.30000000000000016      0 : 4      =     53.7 : 1.0
+             has(sadfac) = 1                   0 : 4      =     49.8 : 1.0
+           neg_r(sadfac) = 0.0                 0 : 4      =     47.8 : 1.0
+                has(447) = 1                   0 : 4      =     40.7 : 1.0
+            neg_l(bunni) = 0.8                 0 : 4      =     40.3 : 1.0
+           neg_l(farrah) = 0.0                 0 : 4      =     40.1 : 1.0
+             neg_l(suck) = 0.20000000000000015      0 : 4      =     39.3 : 1.0
+              neg_l(447) = 0.0                 0 : 4      =     38.7 : 1.0
+              neg_r(447) = 0.0                 0 : 4      =     38.7 : 1.0
+              neg_l(sad) = 0.6000000000000001      0 : 4      =     38.1 : 1.0
+             has(farrah) = 1                   0 : 4      =     38.0 : 1.0
+           neg_r(broken) = 0.9                 0 : 4      =     37.7 : 1.0
+             neg_r(saad) = 0.0                 0 : 4      =     37.4 : 1.0
+           neg_r(farrah) = 0.0                 0 : 4      =     36.3 : 1.0
+              neg_l(sad) = 0.5000000000000001      0 : 4      =     35.5 : 1.0
+           neg_r(sadden) = 0.0                 0 : 4      =     35.4 : 1.0
+            has(fuzzbal) = 1                   4 : 0      =     35.0 : 1.0
+          neg_r(fuzzbal) = 0.0                 4 : 0      =     35.0 : 1.0
+              neg_r(sad) = 0.20000000000000015      0 : 4      =     34.7 : 1.0
+              neg_l(sad) = 0.30000000000000016      0 : 4      =     34.1 : 1.0
+             neg_l(saad) = 0.0                 0 : 4      =     33.4 : 1.0
+               has(sadd) = 1                   0 : 4      =     33.3 : 1.0
+           neg_l(camper) = 0.8                 0 : 4      =     33.0 : 1.0
+             neg_l(sadd) = 0.0                 0 : 4      =     32.8 : 1.0
+           neg_r(boohoo) = 0.0                 0 : 4      =     32.2 : 1.0
+            neg_l(atcha) = 0.0                 4 : 0      =     31.8 : 1.0
+                has(hcc) = 1                   4 : 0      =     31.0 : 1.0
+          neg_l(command) = 0.6000000000000001      0 : 4      =     31.0 : 1.0
+              neg_l(hcc) = 0.0                 4 : 0      =     31.0 : 1.0
+           neg_l(upgrad) = 0.9                 0 : 4      =     31.0 : 1.0
+              neg_r(hcc) = 0.0                 4 : 0      =     31.0 : 1.0
+              neg_r(os3) = 0.0                 0 : 4      =     31.0 : 1.0
+              neg_l(owi) = 0.0                 0 : 4      =     30.6 : 1.0
+             neg_r(sadd) = 0.0                 0 : 4      =     30.6 : 1.0
+             has(sadden) = 1                   0 : 4      =     30.6 : 1.0
+         has(__hash_tag) = 1                   0 : 4      =     30.3 : 1.0
+         neg_l(feverish) = 0.0                 0 : 4      =     30.3 : 1.0
+             neg_l(hurt) = 1.3877787807814457e-16      0 : 4      =     30.3 : 1.0
+       neg_r(__hash_tag) = 0.0                 0 : 4      =     30.3 : 1.0
+           neg_l(sadden) = 0.0                 0 : 4      =     29.9 : 1.0
+          neg_l(headach) = 0.5000000000000001      0 : 4      =     29.7 : 1.0
+             has(boohoo) = 1                   0 : 4      =     29.1 : 1.0
+          has(sharehold) = 1                   4 : 0      =     29.0 : 1.0
+        neg_l(sharehold) = 0.0                 4 : 0      =     29.0 : 1.0
+        neg_r(sharehold) = 0.0                 4 : 0      =     28.6 : 1.0
+           neg_l(boohoo) = 0.0                 0 : 4      =     28.5 : 1.0
+               has(saad) = 1                   0 : 4      =     28.4 : 1.0
+              neg_l(sad) = 0.20000000000000015      0 : 4      =     28.4 : 1.0
+             neg_l(elig) = 0.9                 0 : 4      =     28.3 : 1.0
+            neg_r(sadli) = 0.6000000000000001      0 : 4      =     28.3 : 1.0
+          neg_l(mcmahon) = 0.0                 0 : 4      =     27.3 : 1.0
+       neg_r(pleasantli) = 0.0                 4 : 0      =     27.0 : 1.0
+          neg_r(mcmahon) = 0.0                 0 : 4      =     26.8 : 1.0
+           neg_r(arrghh) = 0.0                 0 : 4      =     26.3 : 1.0
+              neg_l(boo) = 0.40000000000000013      0 : 4      =     25.9 : 1.0
+          neg_l(fuzzbal) = 0.0                 4 : 0      =     25.8 : 1.0
+          has(__hash_ac) = 1                   0 : 4      =     25.7 : 1.0
+        neg_r(__hash_ac) = 0.0                 0 : 4      =     25.7 : 1.0
+         neg_r(ligament) = 0.0                 0 : 4      =     25.7 : 1.0
+             neg_r(sick) = 0.10000000000000014      0 : 4      =     25.7 : 1.0
+             neg_r(sore) = 0.9                 0 : 4      =     25.7 : 1.0
+          neg_r(unstabl) = 0.0                 0 : 4      =     25.7 : 1.0
+           has(airfranc) = 1                   0 : 4      =     25.0 : 1.0
+         neg_l(carradin) = 0.0                 0 : 4      =     25.0 : 1.0
+              neg_r(boo) = 0.8                 0 : 4      =     24.8 : 1.0
+            has(mcmahon) = 1                   0 : 4      =     24.6 : 1.0
+           neg_r(condol) = 0.0                 0 : 4      =     24.4 : 1.0
+           neg_l(reciev) = 0.9                 0 : 4      =     24.3 : 1.0
+                has(os3) = 1                   0 : 4      =     24.2 : 1.0
+              has(trist) = 1                   0 : 4      =     24.2 : 1.0
+            neg_r(trist) = 0.0                 0 : 4      =     24.2 : 1.0
+            neg_r(worst) = 0.6000000000000001      0 : 4      =     24.2 : 1.0
+             has(smilin) = 1                   4 : 0      =     23.7 : 1.0
+           has(tummyach) = 1                   0 : 4      =     23.7 : 1.0
+           neg_l(smilin) = 0.0                 4 : 0      =     23.7 : 1.0
+      neg_l(heartbroken) = 0.0                 0 : 4      =     23.7 : 1.0
+          neg_l(connect) = 0.9                 0 : 4      =     23.6 : 1.0
+           has(carradin) = 1                   0 : 4      =     23.6 : 1.0
+              has(atcha) = 1                   4 : 0      =     23.6 : 1.0
+      neg_r(heartbroken) = 0.0                 0 : 4      =     23.5 : 1.0
+            neg_l(trist) = 0.0                 0 : 4      =     23.4 : 1.0
+           neg_l(happyy) = 0.0                 4 : 0      =     23.3 : 1.0
+              has(unlov) = 1                   0 : 4      =     23.2 : 1.0
+            has(backach) = 1                   0 : 4      =     23.0 : 1.0
+                has(owi) = 1                   0 : 4      =     23.0 : 1.0
+             neg_l(sore) = 0.40000000000000013      0 : 4      =     23.0 : 1.0
+              neg_r(ach) = 0.9                 0 : 4      =     23.0 : 1.0
+             neg_r(kate) = 0.9                 0 : 4      =     23.0 : 1.0
+             neg_r(pain) = 0.40000000000000013      0 : 4      =     23.0 : 1.0
+           neg_r(smilin) = 0.0                 4 : 0      =     23.0 : 1.0
+            neg_r(upset) = 0.9                 0 : 4      =     23.0 : 1.0
+              neg_l(sad) = 0.10000000000000014      0 : 4      =     22.9 : 1.0
+            neg_r(atcha) = 0.0                 4 : 0      =     22.7 : 1.0
+None
+######################
+Accuracy : 0.7764875
+Confusion Matrix 
+  |     0     4 |
+--+-------------+
+0 |<62482>17518 |
+4 | 18244<61756>|
+--+-------------+
+(row = reference; col = test)
+
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  0.7782875
+######################
+Most Informative Features
+         has(tweeteradd) = 1                   4 : 0      =    491.0 : 1.0
+       neg_l(tweeteradd) = 0.0                 4 : 0      =    491.0 : 1.0
+       neg_r(tweeteradd) = 0.0                 4 : 0      =    491.0 : 1.0
+             has(hurtss) = 1                   0 : 4      =     61.0 : 1.0
+              neg_r(jog) = 0.9                 0 : 4      =     60.3 : 1.0
+           neg_r(hurtss) = 0.0                 0 : 4      =     59.0 : 1.0
+           neg_l(hurtss) = 0.0                 0 : 4      =     58.3 : 1.0
+           has(dividend) = 1                   4 : 0      =     50.3 : 1.0
+         neg_l(dividend) = 0.0                 4 : 0      =     50.3 : 1.0
+         neg_r(dividend) = 0.0                 4 : 0      =     49.7 : 1.0
+             has(sadfac) = 1                   0 : 4      =     48.6 : 1.0
+           neg_r(sadfac) = 0.0                 0 : 4      =     47.0 : 1.0
+             neg_l(sadd) = 0.0                 0 : 4      =     39.2 : 1.0
+               has(sadd) = 1                   0 : 4      =     38.5 : 1.0
+             has(farrah) = 1                   0 : 4      =     37.6 : 1.0
+           neg_l(farrah) = 0.0                 0 : 4      =     36.4 : 1.0
+           neg_r(farrah) = 0.0                 0 : 4      =     36.0 : 1.0
+             neg_r(sadd) = 0.0                 0 : 4      =     35.5 : 1.0
+              neg_r(os3) = 0.0                 0 : 4      =     35.0 : 1.0
+           neg_r(yummyy) = 0.0                 4 : 0      =     34.3 : 1.0
+             neg_l(poor) = 0.20000000000000015      0 : 4      =     34.3 : 1.0
+            has(fuzzbal) = 1                   4 : 0      =     34.2 : 1.0
+          neg_r(fuzzbal) = 0.0                 4 : 0      =     34.2 : 1.0
+           neg_l(camper) = 0.8                 0 : 4      =     33.7 : 1.0
+              neg_l(sad) = 0.6000000000000001      0 : 4      =     33.3 : 1.0
+              neg_l(sad) = 0.5000000000000001      0 : 4      =     33.0 : 1.0
+              neg_l(sad) = 0.30000000000000016      0 : 4      =     32.8 : 1.0
+      neg_l(heartbroken) = 0.0                 0 : 4      =     32.5 : 1.0
+           neg_r(boohoo) = 0.0                 0 : 4      =     31.9 : 1.0
+           neg_l(sadder) = 0.0                 0 : 4      =     31.8 : 1.0
+              neg_l(owi) = 0.0                 0 : 4      =     31.4 : 1.0
+            neg_l(fever) = 0.30000000000000016      0 : 4      =     31.0 : 1.0
+             neg_l(hurt) = 1.3877787807814457e-16      0 : 4      =     31.0 : 1.0
+           neg_r(sadden) = 0.0                 0 : 4      =     30.8 : 1.0
+               has(saad) = 1                   0 : 4      =     30.4 : 1.0
+                has(447) = 1                   0 : 4      =     30.3 : 1.0
+           neg_l(sadden) = 0.0                 0 : 4      =     30.3 : 1.0
+       neg_r(pleasantli) = 0.0                 4 : 0      =     29.7 : 1.0
+          neg_l(command) = 0.6000000000000001      0 : 4      =     29.7 : 1.0
+            neg_l(scare) = 0.5000000000000001      0 : 4      =     29.7 : 1.0
+           neg_r(throat) = 0.9                 0 : 4      =     29.7 : 1.0
+          has(sharehold) = 1                   4 : 0      =     29.4 : 1.0
+        neg_l(sharehold) = 0.0                 4 : 0      =     29.4 : 1.0
+         neg_l(carradin) = 0.0                 0 : 4      =     29.0 : 1.0
+         has(__hash_tag) = 1                   0 : 4      =     29.0 : 1.0
+              neg_l(447) = 0.0                 0 : 4      =     29.0 : 1.0
+       neg_l(__emot_cri) = 0.7000000000000001      0 : 4      =     29.0 : 1.0
+         neg_l(feverish) = 0.0                 0 : 4      =     29.0 : 1.0
+       neg_r(__hash_tag) = 0.0                 0 : 4      =     29.0 : 1.0
+        neg_r(sharehold) = 0.0                 4 : 0      =     29.0 : 1.0
+              neg_r(447) = 0.0                 0 : 4      =     28.8 : 1.0
+             has(boohoo) = 1                   0 : 4      =     28.6 : 1.0
+            neg_l(atcha) = 0.0                 4 : 0      =     28.6 : 1.0
+         neg_r(ligament) = 0.0                 0 : 4      =     28.3 : 1.0
+            neg_r(sadli) = 0.6000000000000001      0 : 4      =     28.3 : 1.0
+             neg_r(saad) = 0.0                 0 : 4      =     28.1 : 1.0
+            neg_r(upset) = 0.9                 0 : 4      =     28.1 : 1.0
+             has(sadden) = 1                   0 : 4      =     27.8 : 1.0
+           has(trackbal) = 1                   0 : 4      =     27.7 : 1.0
+           has(tummyach) = 1                   0 : 4      =     27.7 : 1.0
+           neg_l(boohoo) = 0.0                 0 : 4      =     27.5 : 1.0
+              neg_l(cri) = 0.20000000000000015      0 : 4      =     27.4 : 1.0
+             neg_l(elig) = 0.9                 0 : 4      =     27.0 : 1.0
+      neg_r(heartbroken) = 0.0                 0 : 4      =     26.7 : 1.0
+                has(os3) = 1                   0 : 4      =     26.6 : 1.0
+              neg_r(sad) = 0.20000000000000015      0 : 4      =     26.6 : 1.0
+         neg_r(tummyach) = 0.0                 0 : 4      =     26.3 : 1.0
+             has(sadder) = 1                   0 : 4      =     26.1 : 1.0
+        has(heartbroken) = 1                   0 : 4      =     26.1 : 1.0
+           neg_r(hospit) = 0.8                 0 : 4      =     25.7 : 1.0
+          neg_l(fuzzbal) = 0.0                 4 : 0      =     25.4 : 1.0
+          neg_l(mcmahon) = 0.0                 0 : 4      =     25.3 : 1.0
+             neg_l(saad) = 0.0                 0 : 4      =     25.3 : 1.0
+         neg_r(carradin) = 0.0                 0 : 4      =     25.1 : 1.0
+            neg_l(stuck) = 0.30000000000000016      0 : 4      =     25.0 : 1.0
+          neg_r(mcmahon) = 0.0                 0 : 4      =     25.0 : 1.0
+              neg_l(boo) = 0.40000000000000013      0 : 4      =     24.7 : 1.0
+            neg_l(bunni) = 0.8                 0 : 4      =     24.6 : 1.0
+              neg_r(boo) = 0.8                 0 : 4      =     24.6 : 1.0
+          neg_l(stomach) = 0.6000000000000001      0 : 4      =     24.3 : 1.0
+         neg_l(tummyach) = 0.0                 0 : 4      =     24.3 : 1.0
+              neg_r(ach) = 0.9                 0 : 4      =     24.3 : 1.0
+         neg_l(trackbal) = 0.0                 0 : 4      =     24.3 : 1.0
+          neg_r(excruci) = 0.0                 0 : 4      =     24.3 : 1.0
+              neg_l(sad) = 0.40000000000000013      0 : 4      =     24.2 : 1.0
+                has(owi) = 1                   0 : 4      =     23.9 : 1.0
+            has(backach) = 1                   0 : 4      =     23.7 : 1.0
+            has(freezin) = 1                   0 : 4      =     23.7 : 1.0
+             has(smilin) = 1                   4 : 0      =     23.7 : 1.0
+           neg_l(broken) = 0.5000000000000001      0 : 4      =     23.7 : 1.0
+           neg_l(smilin) = 0.0                 4 : 0      =     23.7 : 1.0
+             neg_r(pain) = 0.40000000000000013      0 : 4      =     23.7 : 1.0
+           neg_r(sadder) = 0.0                 0 : 4      =     23.6 : 1.0
+           has(carradin) = 1                   0 : 4      =     23.5 : 1.0
+              has(trist) = 1                   0 : 4      =     23.4 : 1.0
+            neg_r(trist) = 0.0                 0 : 4      =     23.4 : 1.0
+            has(mcmahon) = 1                   0 : 4      =     23.0 : 1.0
+          neg_l(backach) = 0.0                 0 : 4      =     23.0 : 1.0
+             neg_l(fell) = 0.9                 0 : 4      =     23.0 : 1.0
+          neg_l(freezin) = 0.0                 0 : 4      =     23.0 : 1.0
+None
+######################
+Accuracy : 0.7782875
+Confusion Matrix 
+  |     0     4 |
+--+-------------+
+0 |<62577>17423 |
+4 | 18051<61949>|
+--+-------------+
+(row = reference; col = test)
+
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  0.7782125
+######################
+Most Informative Features
+         has(tweeteradd) = 1                   4 : 0      =    490.3 : 1.0
+       neg_l(tweeteradd) = 0.0                 4 : 0      =    490.3 : 1.0
+       neg_r(tweeteradd) = 0.0                 4 : 0      =    490.3 : 1.0
+           neg_l(sadfac) = 0.0                 0 : 4      =     69.0 : 1.0
+              neg_r(jog) = 0.9                 0 : 4      =     63.0 : 1.0
+             has(hurtss) = 1                   0 : 4      =     59.0 : 1.0
+           neg_r(hurtss) = 0.0                 0 : 4      =     57.0 : 1.0
+           neg_l(hurtss) = 0.0                 0 : 4      =     55.0 : 1.0
+           has(dividend) = 1                   4 : 0      =     53.7 : 1.0
+         neg_l(dividend) = 0.0                 4 : 0      =     53.7 : 1.0
+         neg_r(dividend) = 0.0                 4 : 0      =     53.7 : 1.0
+          has(sharehold) = 1                   4 : 0      =     53.0 : 1.0
+        neg_l(sharehold) = 0.0                 4 : 0      =     53.0 : 1.0
+        neg_r(sharehold) = 0.0                 4 : 0      =     52.3 : 1.0
+             neg_l(sadd) = 0.0                 0 : 4      =     47.2 : 1.0
+               has(sadd) = 1                   0 : 4      =     44.8 : 1.0
+             neg_r(sadd) = 0.0                 0 : 4      =     41.0 : 1.0
+                has(447) = 1                   0 : 4      =     40.7 : 1.0
+           neg_l(farrah) = 0.0                 0 : 4      =     40.4 : 1.0
+              neg_l(447) = 0.0                 0 : 4      =     39.0 : 1.0
+              neg_r(447) = 0.0                 0 : 4      =     39.0 : 1.0
+             has(farrah) = 1                   0 : 4      =     38.5 : 1.0
+             neg_l(sigh) = 0.7000000000000001      0 : 4      =     38.3 : 1.0
+              neg_l(sad) = 0.30000000000000016      0 : 4      =     38.2 : 1.0
+           neg_r(boohoo) = 0.0                 0 : 4      =     37.4 : 1.0
+           neg_r(farrah) = 0.0                 0 : 4      =     36.8 : 1.0
+             has(sadfac) = 1                   0 : 4      =     36.1 : 1.0
+              neg_l(boo) = 0.40000000000000013      0 : 4      =     35.8 : 1.0
+              neg_r(os3) = 0.0                 0 : 4      =     35.7 : 1.0
+              neg_l(sad) = 0.5000000000000001      0 : 4      =     35.4 : 1.0
+           neg_l(camper) = 0.8                 0 : 4      =     35.0 : 1.0
+            has(fuzzbal) = 1                   4 : 0      =     35.0 : 1.0
+          neg_r(fuzzbal) = 0.0                 4 : 0      =     35.0 : 1.0
+           neg_r(sadfac) = 0.0                 0 : 4      =     34.7 : 1.0
+            neg_l(hurti) = 0.0                 0 : 4      =     33.7 : 1.0
+             neg_l(poor) = 0.20000000000000015      0 : 4      =     33.7 : 1.0
+             has(boohoo) = 1                   0 : 4      =     33.3 : 1.0
+           neg_l(boohoo) = 0.0                 0 : 4      =     33.0 : 1.0
+              neg_l(sad) = 0.20000000000000015      0 : 4      =     32.5 : 1.0
+              neg_l(sad) = 0.10000000000000014      0 : 4      =     32.3 : 1.0
+            neg_l(fever) = 0.30000000000000016      0 : 4      =     32.2 : 1.0
+               has(owwi) = 1                   0 : 4      =     31.0 : 1.0
+            neg_l(atcha) = 0.0                 4 : 0      =     31.0 : 1.0
+         neg_l(feverish) = 0.0                 0 : 4      =     31.0 : 1.0
+           neg_r(hospit) = 0.9                 0 : 4      =     30.3 : 1.0
+              neg_l(owi) = 0.0                 0 : 4      =     30.2 : 1.0
+              neg_l(sad) = 0.6000000000000001      0 : 4      =     30.2 : 1.0
+             neg_l(owwi) = 0.0                 0 : 4      =     29.7 : 1.0
+             neg_r(saad) = 0.0                 0 : 4      =     29.3 : 1.0
+       neg_l(__emot_cri) = 0.7000000000000001      0 : 4      =     29.0 : 1.0
+            neg_r(sadli) = 0.6000000000000001      0 : 4      =     29.0 : 1.0
+          neg_l(command) = 0.6000000000000001      0 : 4      =     28.3 : 1.0
+              neg_r(gut) = 0.9                 0 : 4      =     28.1 : 1.0
+                has(228) = 1                   0 : 4      =     27.8 : 1.0
+           neg_r(sadden) = 0.0                 0 : 4      =     27.7 : 1.0
+         has(__hash_tag) = 1                   0 : 4      =     27.7 : 1.0
+             neg_l(elig) = 0.9                 0 : 4      =     27.7 : 1.0
+       neg_r(__hash_tag) = 0.0                 0 : 4      =     27.7 : 1.0
+      neg_l(heartbroken) = 0.0                 0 : 4      =     27.5 : 1.0
+              neg_r(sad) = 0.20000000000000015      0 : 4      =     27.2 : 1.0
+           neg_l(sadden) = 0.0                 0 : 4      =     26.9 : 1.0
+                has(os3) = 1                   0 : 4      =     26.6 : 1.0
+             neg_l(saad) = 0.0                 0 : 4      =     26.4 : 1.0
+      neg_r(heartbroken) = 0.0                 0 : 4      =     26.4 : 1.0
+           has(trackbal) = 1                   0 : 4      =     26.3 : 1.0
+             neg_l(womp) = 0.0                 0 : 4      =     26.2 : 1.0
+          neg_l(fuzzbal) = 0.0                 4 : 0      =     26.2 : 1.0
+              neg_l(228) = 0.0                 0 : 4      =     25.8 : 1.0
+              neg_r(228) = 0.0                 0 : 4      =     25.8 : 1.0
+                has(hcc) = 1                   4 : 0      =     25.7 : 1.0
+              neg_l(hcc) = 0.0                 4 : 0      =     25.7 : 1.0
+              neg_r(hcc) = 0.0                 4 : 0      =     25.7 : 1.0
+             neg_r(owwi) = 0.0                 0 : 4      =     25.7 : 1.0
+          neg_l(mcmahon) = 0.0                 0 : 4      =     25.6 : 1.0
+             has(sadden) = 1                   0 : 4      =     25.5 : 1.0
+             neg_l(twug) = 0.0                 0 : 4      =     25.4 : 1.0
+          neg_r(mcmahon) = 0.0                 0 : 4      =     25.2 : 1.0
+         neg_r(ligament) = 0.0                 0 : 4      =     25.0 : 1.0
+           has(tummyach) = 1                   0 : 4      =     25.0 : 1.0
+            neg_l(aughh) = 0.0                 0 : 4      =     25.0 : 1.0
+          neg_l(stomach) = 0.6000000000000001      0 : 4      =     25.0 : 1.0
+         neg_l(carradin) = 0.0                 0 : 4      =     24.9 : 1.0
+               has(saad) = 1                   0 : 4      =     24.6 : 1.0
+          has(__hash_ac) = 1                   0 : 4      =     24.3 : 1.0
+            has(backach) = 1                   0 : 4      =     24.3 : 1.0
+        neg_r(__hash_ac) = 0.0                 0 : 4      =     24.3 : 1.0
+          neg_r(excruci) = 0.0                 0 : 4      =     24.3 : 1.0
+         neg_r(tummyach) = 0.0                 0 : 4      =     24.3 : 1.0
+              has(trist) = 1                   0 : 4      =     24.2 : 1.0
+          neg_r(stomach) = 0.8                 0 : 4      =     24.2 : 1.0
+            neg_r(trist) = 0.0                 0 : 4      =     24.2 : 1.0
+              neg_r(boo) = 0.8                 0 : 4      =     23.9 : 1.0
+           neg_l(throat) = 0.7000000000000001      0 : 4      =     23.7 : 1.0
+              neg_r(ach) = 0.9                 0 : 4      =     23.7 : 1.0
+             neg_r(pain) = 0.40000000000000013      0 : 4      =     23.7 : 1.0
+             neg_r(pain) = 0.5000000000000001      0 : 4      =     23.7 : 1.0
+            neg_l(trist) = 0.0                 0 : 4      =     23.4 : 1.0
+            has(mcmahon) = 1                   0 : 4      =     23.1 : 1.0
+           has(airfranc) = 1                   0 : 4      =     23.0 : 1.0
+              has(atcha) = 1                   4 : 0      =     23.0 : 1.0
+None
+######################
+Accuracy : 0.7782125
+Confusion Matrix 
+  |     0     4 |
+--+-------------+
+0 |<62782>17218 |
+4 | 18268<61732>|
+--+-------------+
+(row = reference; col = test)
+
