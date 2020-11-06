@@ -11,7 +11,7 @@ class DataUtil :
 
         from functools import wraps
         #procTweets1 = pd.read_csv("/Users/bhogirala/PycharmProjects/mlws/senti/data/preprocessed_tweets_shuffled.csv",encoding='ISO-8859-1')
-        procTweets = tweets[:10]
+        procTweets = tweets
         stemmer = nltk.stem.PorterStemmer()
 
         all_tweets = []  # DATADICT: all_tweets =   [ (words, sentiment), ... ]
