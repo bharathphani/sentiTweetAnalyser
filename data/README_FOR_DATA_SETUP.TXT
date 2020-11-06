@@ -4,5 +4,5 @@ Steps to do data setup
 2) Download dataset training.1600000.processed.noemoticon.csv in
    csv format
 3) Rename the dataset to tweets.csv and upload the csv file
-   to data folder in this project
+   to this folder in this project
 4) Run project run steps mentioned below
