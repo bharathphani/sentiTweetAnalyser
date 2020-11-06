@@ -19,5 +19,6 @@ Steps to run the project
    3)  After random shuffle in main.py preprocessed_tweets_shuffled.csv file will get generated
    4)  After completion and testing and training, a detailed log file will get generated for each classifier in
        logs folder of main project.
+5) Added Project_structure.png for reference
 5) If any difficulties or issues faced while running thr project please send detailed error log to phani.bharath@gmail.com
 
